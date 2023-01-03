@@ -24,6 +24,12 @@ o comando abaixo especifica as ramificações dos commits realizados, em qual ra
 -- e os demais commits ficam em ramos diferentes fazendo assim o versionamento. o HEAD é sempre o ultimo commit o master sempre o primeiro
 git log --oneline --graph 
 
+para rastrear as mudanças feitas em cada commit devemos referenciar o id do commit que vamos analisar ao HEAD. para isso usamos os seguintes comandos.
+git checkout idDoCommit 
+
+quando fazemos o comando acima saimos do branch master e vamos para uma nova ramificação de versionamento. para voltar ao ultimo commit realizado usamos o comando abaixo para voltarmos para a ramificação master:
+git checkout master
+
 
 git branch -M main
 git remote add origin url
