@@ -22,7 +22,7 @@ git commit -m "first commit"
 
 o comando abaixo especifica as ramificações dos commits realizados, em qual ramo o comit estar, pois quando comitamos a podemos deixar uma versão como a original
 -- e os demais commits ficam em ramos diferentes fazendo assim o versionamento. o HEAD é sempre o ultimo commit o master sempre o primeiro
-git log --oneline --graph 
+git log --oneline --graph --all# esse all exibe todas as ramificações.
 
 para rastrear as mudanças feitas em cada commit devemos referenciar o id do commit que vamos analisar ao HEAD. para isso usamos os seguintes comandos.
 git checkout idDoCommit 
@@ -42,7 +42,15 @@ git reset HEAD
 REMOVER UM COMMIT - para remover um commit podemos remover o HEAD no caso o ultimo commit e ai o HEAD passara a ser o penultimo commit:
 git reset --read idDoPenultimoCommit
 
+CRIANDO UM RAMO NOVO - para criar uma ramificação nova devemos realizar o comando abaixo: ao criar um novo ramo por padrao o git ja entra nele
+git checkout -b nomeDaRamificação
 
+para voltar ao branch master usamos:
+git checkout master
+
+para fundir uma ramificação alternativa com a master usamos o comando 
+git merge nomeDoRamoAlternativo
+git merge --abort # cancela o processo
 
 
 git branch -M main
