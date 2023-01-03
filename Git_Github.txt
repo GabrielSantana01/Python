@@ -30,6 +30,20 @@ git checkout idDoCommit
 quando fazemos o comando acima saimos do branch master e vamos para uma nova ramificação de versionamento. para voltar ao ultimo commit realizado usamos o comando abaixo para voltarmos para a ramificação master:
 git checkout master
 
+com o comando abaixo podemos ver oque foi removido do arquivo e oq foi adicionado
+git diff
+
+e quando quisermos retornar ao conteudo anterior que existia no arquivo e ainda nao realizamos o commit fazemos o comando abaixo. isso antes tb de enviar o arquivo para o conteiner pelo comando git add .
+git checkout nomeDoArquivo.formatoDoArquivo
+
+caso o arquivo ja tenha sido adicionado ao conteiner usamos o comando abaixo: onde a alteração sai do contener e podemos desfaze-la usando o comando acima.
+git reset HEAD
+
+REMOVER UM COMMIT - para remover um commit podemos remover o HEAD no caso o ultimo commit e ai o HEAD passara a ser o penultimo commit:
+git reset --read idDoPenultimoCommit
+
+
+
 
 git branch -M main
 git remote add origin url
