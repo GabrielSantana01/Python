@@ -1,0 +1,16 @@
+para atualizar o pip :
+
+python -m pip install --upgrade pip
+
+
+instalando o pyqt6 = https://www.pythontutorial.net/pyqt/qt-designer/
+---------------------------------------------------------
+pip install --upgrade pip
+pip install -r requirements.txt criar um txt dentro do arquivo virtual para instalar as dependencias
+dentro do ambiente Virtual
+pip install pyqt6
+pip install pyqt6-tools
+apos intalação é so acessar Lib\site-packages\qt6_applications\Qt\bin\designer.exe
+pyuic6 -V # verifica versao
+-- convertendo ui em py
+(pyqt6-env) d:\pyqt6\pyqt6-env\Scripts>designer
