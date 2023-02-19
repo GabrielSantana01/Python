@@ -14,3 +14,9 @@ deve ser instalada no python.
 install pyenv
 
 python3.4 -m venv <nome>
+-----------------------------------------------------------------------
+para criar o ambiente virtual no vscode
+
+primeiro tive que rodar:py -m venv venv
+
+no diretorio atual:. venv/Scripts/activate
