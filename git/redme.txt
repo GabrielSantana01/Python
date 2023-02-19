@@ -1,0 +1,59 @@
+# Python
+todos os estudos relacionados a python
+
+para esse projeto vou trabalhar com git e github sincronizando tudo que for feito no jupyter notebook.
+com isso foi criado uma organização de pastas em um repositorio no github, chamado python e foi criado uma pasta em documentos chamada python sincronizando todos os projetos dentro dessa pasta.
+
+para usar o git é preciso acessar o diretorio de pasta no qual queremos trabalhar clicar com o direito do mouse e abrir o Git Bash Here
+nesse promt iremos realizar os comandos para que e que os notebooks criado no jupyter seja enviado para o github e que os commits no git tb seja realizado
+
+o primeiro comando é o git init para criar um repositorio local do git no diretorio que esta ocorrendo o trabalho. 
+git init
+
+o git add . adiciona seu projeto em um conteiner
+git add .
+
+o git status verifica o status desse conteiner " se algum arquivo foi alterado ou adicionado"
+git status
+
+
+o git commit pega o conteudo do conteiner e adiciona no repositorio local git criado no git init. o -m indica que o comando deve ter um comentario entre aspas.
+git commit -m "first commit" 
+
+o comando abaixo especifica as ramificações dos commits realizados, em qual ramo o comit estar, pois quando comitamos a podemos deixar uma versão como a original
+-- e os demais commits ficam em ramos diferentes fazendo assim o versionamento. o HEAD é sempre o ultimo commit o master sempre o primeiro
+git log --oneline --graph --all# esse all exibe todas as ramificações.
+
+para rastrear as mudanças feitas em cada commit devemos referenciar o id do commit que vamos analisar ao HEAD. para isso usamos os seguintes comandos.
+git checkout idDoCommit 
+
+quando fazemos o comando acima saimos do branch master e vamos para uma nova ramificação de versionamento. para voltar ao ultimo commit realizado usamos o comando abaixo para voltarmos para a ramificação master:
+git checkout master
+
+com o comando abaixo podemos ver oque foi removido do arquivo e oq foi adicionado
+git diff
+
+e quando quisermos retornar ao conteudo anterior que existia no arquivo e ainda nao realizamos o commit fazemos o comando abaixo. isso antes tb de enviar o arquivo para o conteiner pelo comando git add .
+git checkout nomeDoArquivo.formatoDoArquivo
+
+caso o arquivo ja tenha sido adicionado ao conteiner usamos o comando abaixo: onde a alteração sai do contener e podemos desfaze-la usando o comando acima.
+git reset HEAD
+
+REMOVER UM COMMIT - para remover um commit podemos remover o HEAD no caso o ultimo commit e ai o HEAD passara a ser o penultimo commit:
+git reset --read idDoPenultimoCommit
+
+CRIANDO UM RAMO NOVO - para criar uma ramificação nova devemos realizar o comando abaixo: ao criar um novo ramo por padrao o git ja entra nele
+git checkout -b nomeDaRamificação
+
+para voltar ao branch master usamos:
+git checkout master
+
+para fundir uma ramificação alternativa com a master usamos o comando 
+git merge nomeDoRamoAlternativo
+git merge --abort # cancela o processo
+
+
+git branch -M main
+git remote add origin url
+git push -u origin main
+git ls.files
