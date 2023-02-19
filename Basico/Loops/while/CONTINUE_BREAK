@@ -1,0 +1,5 @@
+CONTINUE = usamos continue para que o script volte para o inicio do laço não não veja as 
+demais condicionais dentro desse laço na mesma varredura. somente na proxima varredura que talvez 
+as demais condicionais irão serem acinadas.
+
+BREAK =  ja o break é para sair do laço.
