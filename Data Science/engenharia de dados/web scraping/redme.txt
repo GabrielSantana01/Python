@@ -1,0 +1,2 @@
+https://imasters.com.br/back-end/aprendendo-sobre-web-scraping-em-python-utilizando-beautifulsoup
+https://github.com/psf/requests/blob/4f6c0187150af09d085c03096504934eb91c7a9e/requests/models.py#L469
