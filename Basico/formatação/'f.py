@@ -31,7 +31,7 @@ Formatando valores =
 :.(numero)f - quantidade de casa decimais
 :(caracter) (< OU > OU ^) (quantidade de repetição)(tipo s ou d ou f) - essa sentença repete o caracter uma determinada quantidade de vezes.
 f'o numero inserido foi{idade:@>5.2f}'
-
+print('_'* len(forca))# exibi a quantidade de _ no tamanho de forca
 '''
 \t # concatena os valores
-print(f'o nome{} foi aprovado com nota{}', end'') # o end no final é para exibir os valores na mesma linha
+print(f'o nome{} foi aprovado com nota{}', end='') # o end no final é para exibir os valores na mesma linha
