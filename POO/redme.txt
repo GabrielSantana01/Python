@@ -2,5 +2,11 @@
 #para corrigir isso é criado o metodo. pois assim nos importamos um outro arquivo python porem ele so roda ocodigo quando a função é chamada dentro do novo arquivo.
 '''quando vc cria uma função em um arquivo, mesmo mandando rodar o arquivo o codigo dentro da função não rodarar. o metodo tem que ser chamado para que a função rode.
 isso pode ser feito no proprio arquivo apos concluir a função é so chamar ela no fim, ou chamar diretamente a função em vez de rodar o arquivo.'''
-#porem com isso ao chamar o arquivo python em outro arquivo ele passa a chamar a função automaticamente por isso que criamos a classe, pois com ela o arquivo python so vai rodar o codigo do metodo quado a classe for estanciada e o metodo chamado.'''
+#porem com isso ao chamar o arquivo python em outro arquivo ele passa a chamar a função automaticamente por isso que criamos um 
+if (__name__ == '__main__'):
+  def função_Do_Arquivo_Python():
+a interpretação para o if acima é de uma pergunta. se o arquivo rodado(__name__) é o principal(__main__). caso seja o principal ele proda oq esta dentro do if, caso não, não faz nada, com isso quando rodarmos um arquivo python diretamente a função onde esta contido o codigo sera rodada. e quando rodamos esse arquivo atraves de outro o metodo que contem o codigo sera rodado somente quando chamado.
+
+
+a classe, pois com ela o arquivo python so vai rodar o codigo do metodo quado a classe for estanciada e o metodo chamado.'''
 
