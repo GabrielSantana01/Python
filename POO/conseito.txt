@@ -9,8 +9,8 @@ def __init__(self, atributo01, atributo02):
 
 para que esses atributos não sejam acessados diretamente, deixamos esses atributos como privados usando o (_) duas vezes antes do atributo. logo teremos:
 def __init__(self, atributo01, atributo02):
-   self.atributo01 = __atributo01
-   self.atributo02 = __atributo02
+   self.__atributo01 = atributo01
+   self.__atributo02 = atributo02
 *OBS: com isso temos que criar metodos set e get para conseguir ler e escrever no atributo privado.
 
 
