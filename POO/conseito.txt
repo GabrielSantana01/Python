@@ -1,0 +1,36 @@
+#quando precisamos acessar atributos de uma classe em uma outra classe precisamos realizar uma importação. ex: from modulo import classe.
+#porem criamos metodos para que não rode todo o conteudo da classe importada.
+
+para criarmos uma classe usamos a seguinte sentença dentro do modulo(arquivo com o ponto .py): class MinhaClasse:
+e dentro da classe com a devida identação criamos o metodo construtor que é um metodo que tera todos os atributos da classe:
+def __init__(self, atributo01, atributo02):
+   self.atributo01 = atributo01
+   self.atributo02 = atributo02
+
+para que esses atributos não sejam acessados diretamente, deixamos esses atributos como privados usando o (_) duas vezes antes do atributo. logo teremos:
+def __init__(self, atributo01, atributo02):
+   self.atributo01 = __atributo01
+   self.atributo02 = __atributo02
+
+
+quando instanciamos a classe atraves da criação de um objeto podemos acessar o contrutor diretamente colocando os atributos na chamada da classe:
+
+objeto01 = MinhaClasse(atributo01, atributo02)
+print(objeto01.atributo01)
+print(objeto01.atributo02)
+
+
+
+
+
+
+
+
+#porem com isso ao chamar o arquivo python em outro arquivo ele passa a chamar a função automaticamente por isso que criamos um 
+if (__name__ == '__main__'):
+  def função_Do_Arquivo_Python():
+a interpretação para o if acima é de uma pergunta. se o arquivo rodado(__name__) é o principal(__main__). caso seja o principal ele proda oq esta dentro do if, caso não, não faz nada, com isso quando rodarmos um arquivo python diretamente a função onde esta contido o codigo sera rodada. e quando rodamos esse arquivo atraves de outro o metodo que contem o codigo sera rodado somente quando chamado.
+
+
+a classe, pois com ela o arquivo python so vai rodar o codigo do metodo quado a classe for estanciada e o metodo chamado.'''
+
