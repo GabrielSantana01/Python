@@ -11,7 +11,7 @@ para que esses atributos não sejam acessados diretamente, deixamos esses atribu
 def __init__(self, atributo01, atributo02):
    self.__atributo01 = atributo01
    self.__atributo02 = atributo02
-*OBS: com isso temos que criar metodos set e get para conseguir ler e escrever no atributo privado.
+*OBS: com isso temos que criar metodos qualquer ou um metodo set e get para conseguir ler e escrever no atributo privado.
 
 
 quando instanciamos a classe atraves da criação de um objeto podemos acessar o contrutor diretamente colocando os atributos na chamada da classe:
