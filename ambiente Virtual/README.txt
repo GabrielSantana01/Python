@@ -25,7 +25,9 @@ como estou usando o linux agora, pelo wsl consigo rodar o terminal linux pelo vs
 e para abrir um ambiente virtual no terminal linux.
 
 instalando ambiente virtual: pip3 install virtualenv
-
+virtualenv --version
 criar ambiente virtual: -m venv ambienteVirtual
 
 ativando ambiente virtual: source ambienteVirtual/bin/activate
+
+
