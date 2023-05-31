@@ -14,3 +14,8 @@ apos intalação é so acessar Lib\site-packages\qt6_applications\Qt\bin\designe
 pyuic6 -V # verifica versao
 -- convertendo ui em py
 (pyqt6-env) d:\pyqt6\pyqt6-env\Scripts>designer
+---------------------------------------------------------------------------------------------------
+usando linux.
+
+para instalar o pip no linux usamos o : sudo apt-get install python-pip
+apt-get update
