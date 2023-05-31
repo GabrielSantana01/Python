@@ -20,3 +20,12 @@ para criar o ambiente virtual no vscode
 primeiro tive que rodar:py -m venv venv
 
 no diretorio atual:. venv/Scripts/activate
+--------------------------------------------------------------------------
+como estou usando o linux agora, pelo wsl consigo rodar o terminal linux pelo vscode instalado no windows.
+e para abrir um ambiente virtual no terminal linux.
+
+instalando ambiente virtual: pip3 install virtualenv
+
+criar ambiente virtual: -m venv ambienteVirtual
+
+ativando ambiente virtual: source ambienteVirtual/bin/activate
