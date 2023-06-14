@@ -1,12 +1,12 @@
 # Índice
-* [Tipos de Variaveis](#tipos-de-variaveis)
-* [Operadores Logica](#operadores-logico)
-* [Operadores Condicional](#operadores-Condicionais)
-* [Laço de repetição for](#for)
-* [Laço de repetição while](#while)
-* [Manipulação de String](#formats-string)
-* [Estrtura de Dados](#estrutura-De-Dados)
-* [Varedura de Dados](#varredura-De-Dados)
+* [Tipos De Variaveis](#tipos-de-variaveis)
+* [Operadores Logica](#operadores-logica)
+* [Operadores Condicional](#operadores-condicional)
+* [Laço de repetição for](#laço-de-repetição-for)
+* [Laço de repetição while](#laço-de-repetição-while)
+* [Manipulação de String](#manipulação-de-string)
+* [Estrutura de Dados](#estrutura-de-dados)
+* [Varedura de Dados](#varedura-de-dados)
 
 
 
@@ -47,7 +47,7 @@
 
 
 
-## Estrtura de Dados
+## Estrutura de Dados
 
 
 
