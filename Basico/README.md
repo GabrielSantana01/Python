@@ -1,97 +1,56 @@
 # Índice
-* [Tipos de Variaveis](#TiposDeVariaveis)
-* [Operadores Logica](#OperadoresLogico)
-* [Operadores Condicionai](#OperadoresCondicionais)
+* [Tipos de Variaveis](#tipos-de-variaveis)
+* [Operadores Logica](#operadores-logico)
+* [Operadores Condicional](#operadores-Condicionais)
 * [Laço de repetição for](#for)
 * [Laço de repetição while](#while)
-* [Manipulação de String](#formatString)
-* [Estrutura de Dados](#estruturaDeDados)
-* [Varedura de Dados](#varreduraDeDados)
-[pular para baixo](#local-mais-abaixo)
-a
-a
-a
-a
-aa
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-aa
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-aa
-a
-a
-a
-a
-a
-a
-a
-a
-a
-#estruturaDeDados
-b
-b
-bb
-b
-b
-b
-b
-b
-b
-b
-bb
-b
-b
-b
-b
-b
-b
-b
-b
-b
-b
-b
-b
-b
-b
-b
-b
-b
+* [Manipulação de String](#formats-string)
+* [Estrtura de Dados](#estrutura-De-Dados)
+* [Varedura de Dados](#varredura-De-Dados)
 
 
-## Local mais abaixo
+
+
+## Tipos De Variaveis
+
+
+
+
+
+## Operadores Logica
+
+
+
+
+
+## Operadores Condicional
+
+
+
+
+
+## Laço de repetição for
+
+
+
+
+
+## Laço de repetição while
+
+
+
+
+
+## Manipulação de String
+
+
+
+
+
+## Estrtura de Dados
+
+
+
+
+
+## Varedura de Dados
