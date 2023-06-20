@@ -8,7 +8,24 @@
 * [Estrutura de Dados](#estrutura-de-dados)
 * [Varedura de Dados](#varedura-de-dados)
 
+```objc
+#pragma mark Properties
 
+idade = 18
+ano = 2002
+
+print(type(idade))
+print(type(ano))
+```
+```py
+#pragma mark Properties
+
+idade = 18
+ano = 2002
+
+print(type(idade))
+print(type(ano))
+```
 
 
 ## Tipos De Variaveis
