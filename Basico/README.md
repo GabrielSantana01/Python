@@ -1,3 +1,4 @@
+https://pythonacademy.com.br/blog/tipos-de-variaveis-no-python
 # Índice
 * [Tipos De Variaveis](#tipos-de-variaveis)
 * [Operadores Logica](#operadores-logica)
