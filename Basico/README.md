@@ -1,6 +1,6 @@
 [[https://pythonacademy.com.br/blog/tipos-de-variaveis-no-python
 # Índice
-* [Tipos De Variaveis](https://github.com/GabrielSantana01/Python/blob/main/Basico/Tipos_Variaveis.md)(https://github.com/GabrielSantana01/Python/blob/main/Basico/Tipos_Variaveis.md))
+* [Tipos De Variaveis](#https://github.com/GabrielSantana01/Python/blob/main/Basico/Tipos_Variaveis.md)(https://github.com/GabrielSantana01/Python/blob/main/Basico/Tipos_Variaveis.md))
 * [Operadores Logica](#operadores-logica)
 * [Operadores Condicional](#operadores-condicional)
 * [Laço de repetição for](#laço-de-repetição-for)
