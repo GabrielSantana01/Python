@@ -158,3 +158,8 @@ Que tal poupar algumas linhas e obter o mesmo resultado com List Comprehension?
 [print(f'índice={indice}, valor={valor}') for indice, valor in enumerate(lista)]
 ```
 A saída será a mesma! 
+
+Eu vou usar links apartir de agora, como biblioteca. a ideia é acessar essas bibliotecas toda vez que quiser usar uma função em especifico. 
+A organização agora tem que categorizar essa biblioteca.
+
+https://pythonacademy.com.br/blog/manipulacao-de-listas-no-python
