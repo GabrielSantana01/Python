@@ -6,6 +6,7 @@ python -m pip install --upgrade pip
 instalando o pyqt6 = https://www.pythontutorial.net/pyqt/qt-designer/
 ---------------------------------------------------------
 pip install --upgrade pip
+pip3 install --upgrade pip setuptools wheel
 pip install -r requirements.txt criar um txt dentro do arquivo virtual para instalar as dependencias
 dentro do ambiente Virtual
 pip install pyqt6
