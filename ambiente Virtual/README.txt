@@ -30,4 +30,9 @@ criar ambiente virtual: -m venv ambienteVirtual
 
 ativando ambiente virtual: source ambienteVirtual/bin/activate
 
+---------------------------------------------------------------------------------------
+caso ultilize o powershell pode ocorrer um erro de permissoes. tem que digitar o seguinte comando:
+Set - ExecutionPolicy RemoteSigned
+Y
+
 
