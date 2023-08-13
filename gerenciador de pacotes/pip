@@ -20,3 +20,7 @@ usando linux.
 
 para instalar o pip no linux usamos o : sudo apt-get install python-pip
 apt-get update
+------------------------------------------------------
+na biblioteca pymssql -- tive problema para instalar essa biblioteca e foi resolvido instalando a biblioteca abaixo antes.
+pip install tap-mssql
+pip install pymssql
