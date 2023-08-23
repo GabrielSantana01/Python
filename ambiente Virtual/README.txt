@@ -34,5 +34,8 @@ ativando ambiente virtual: source ambienteVirtual/bin/activate
 caso ultilize o powershell pode ocorrer um erro de permissoes. tem que digitar o seguinte comando:
 Set - ExecutionPolicy RemoteSigned
 Y
-
+-----------------------------------------------------------------------------------------
+depois de muita briga e muito choro conseguir pensar em uma maneira de rodar o ambiente virtual sem o virtualenv. e sim com a biblioteca venv.
+na linha de comando abaixo temos que acessar onde vai ficar o ambiente virtual e jogar o caminho da versao que queremos usar do python. apos isso usamos o -m e chamamos a biblioteca venv e damos um nome.
+C:\caminho\para\python3.5.exe -m venv nome_do_ambiente_virtual
 
