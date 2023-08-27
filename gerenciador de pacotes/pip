@@ -19,6 +19,10 @@ pyuic6 -V # verifica versao
 usando linux.
 
 para instalar o pip no linux usamos o : sudo apt-get install python-pip
+---------------------------------------------------------------------------------------------
+tive dificudade para instalar o algumas bibliotecas devido ao tamanho longo do diretorio. habilitei uma função no windows para sanar o problema:
+
+This registry key can also be controlled via Group Policy at Computer Configuration > Administrative Templates > System > Filesystem > Enable Win32 long paths.
 apt-get update
 ------------------------------------------------------
 na biblioteca pymssql -- tive problema para instalar essa biblioteca e foi resolvido instalando a biblioteca abaixo antes.
