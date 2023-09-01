@@ -57,3 +57,7 @@ git branch -M main
 git remote add origin url
 git push -u origin main
 git ls.files
+--------------------------------------------------------------------------------------------------------------------
+para adicionar o token do gitbub no windows temos que adicionar a credenciais genericas.
+ja no linux devemos utilizar a chave uma vez e colocar o comando git config --global credential.helper cache para salvar o uso do token.
+para retirar essa configuração :git config --global --unset credential.helper
