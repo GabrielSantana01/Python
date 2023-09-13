@@ -10,4 +10,4 @@ Ajuste de Hiperparâmetros: Otimização dos parâmetros do modelo para melhorar
 
 Realização de Previsões: Usar o modelo treinado para fazer previsões em novos dados.
 
-teste
+
