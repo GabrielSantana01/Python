@@ -1,0 +1,1 @@
+primeiro projeto de machine learn utilizando POO para organizar a Pipeline
