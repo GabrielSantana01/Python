@@ -24,9 +24,10 @@ no diretorio atual:. venv/Scripts/activate
 como estou usando o linux agora, pelo wsl consigo rodar o terminal linux pelo vscode instalado no windows.
 e para abrir um ambiente virtual no terminal linux.
 
-instalando ambiente virtual: pip3 install virtualenv
+instalando ambiente virtual: pip3 install virtualenv ou sudo apt install python3.10-venv
 virtualenv --version
-criar ambiente virtual: -m venv ambienteVirtual
+criar ambiente virtual: python -m venv ambienteVirtual
+
 
 ativando ambiente virtual: source ambienteVirtual/bin/activate
 
