@@ -26,7 +26,8 @@ e para abrir um ambiente virtual no terminal linux.
 
 instalando ambiente virtual: pip3 install virtualenv ou sudo apt install python3.10-venv
 virtualenv --version
-criar ambiente virtual: python -m venv ambienteVirtual
+criar ambiente virtual: python3 -m venv meuambiente
+ativei o ambiente virtual assim: source meuambiente/bin/activate
 
 
 ativando ambiente virtual: source ambienteVirtual/bin/activate
