@@ -19,6 +19,13 @@ pyuic6 -V # verifica versao
 usando linux.
 
 para instalar o pip no linux usamos o : sudo apt-get install python-pip
+apos o pip esta istalado posso usar o comando para verificar a versão:
+pip3 --version
+e ai instalar as bibliotecas python para o uso de Data science, na verdade considero uma boa pratica criar um ambiente virtual
+para não dar conflito de versões e diretorio.
+para isso a primeira biblioteca a ser instalada é o virtualenv:
+
+
 ---------------------------------------------------------------------------------------------
 tive dificudade para instalar o algumas bibliotecas devido ao tamanho longo do diretorio. habilitei uma função no windows para sanar o problema:
 
