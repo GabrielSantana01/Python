@@ -9,5 +9,6 @@ Avaliação do Modelo: Avaliação do desempenho do modelo usando métricas rele
 Ajuste de Hiperparâmetros: Otimização dos parâmetros do modelo para melhorar seu desempenho.
 
 Realização de Previsões: Usar o modelo treinado para fazer previsões em novos dados.
+--------------------------------------------------------------------------------------------------------------------------
 
 
