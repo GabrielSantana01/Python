@@ -20,4 +20,4 @@ para cada features que corresponde a variancia que ocorre nessa features agrupad
 tipo a features 1 para o cluster 1 vai ter um valor na sua variancia e se essa essa features impactar no modelo Euclidiana
 tera um valor bem diferente no cluster 2. com isso sabemos a unfluencia das fetures no modelo.
 -----------------------------------------------------------------------------------------------------------------------------------
-PCA e StandardScaler
+PCA reduz a quantidade de features existente em um modelo para evitar o overfits
