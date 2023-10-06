@@ -7,3 +7,6 @@
  * [Manipulação de String](#manipulação-de-string)
  * [Estrutura de Dados](https://github.com/GabrielSantana01/Python/blob/main/Basico/Estrutura_Dados.md)
  * [Varedura de Dados](#varedura-de-dados)
+
+para visualizar um markdown no vscode, tem que apertar crtl + K  M ai 
+define-se a linguagem markdown como a usada, depois aperta crtl + k V e escreve Open ()

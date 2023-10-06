@@ -4,27 +4,27 @@ frutas = list()
 -------------------------------------------------------
 
 SINTAX = frutas = ['maça', 'banana', 'morango', 'manga']
-a lista é mais lenta
+#a lista é mais lenta
 -------------------------------------------------------
-add item na lista=
+#add item na lista=
 frutas.append('abacaxi')# vai pro final da lista
 frutas.insert(2,'laranja')
 print('fruta')
 frutas = ['maça', 'banana','laranja','morango', 'manga']
 frutas.append(input('insira uma fruta'))
 -------------------------------------------------------
-alterar valor de uma possição=
+#alterar valor de uma possição=
 frutas[2] = 'laranja'
 
 -------------------------------------------------------
-excluir item na lista=
+#excluir item na lista=
 
 del frutas[2] # remover pelo indice
 frutas.pop(2) # tb remover pelo indice
 frutas.remove('laranja') # remove pelo valor
 
 -------------------------------------------------------
-ORDERNAR LISTA=
+''' ORDERNAR LISTA=
 frutas.sort()# o metodo provavelmente so numeros, esse metodo altera a lista original
 copia = frutas# o igual cria uma ligação entra as duas listas e os dois vao receber a alteração
 
@@ -35,7 +35,7 @@ ou usar a função sorted é uma billtind do python,  cria uma copia da lista
 
 -------------------------------------------------------
 -------------------------------------------------------
-                                            TUPLA = 
+                    TUPLA = 
 
 SINTAX = frutas = (maça, banana, morango, manga)
 
@@ -46,7 +46,7 @@ A tupla é imutavel
 -------------------------------------------------------
 
 Para pecorrer item a item de um dicionario usamos o for
-
+'''
 dados = {
     'Crossfox': {'km': 35000, 'ano': 2005}, 
     'DS5': {'km': 17000, 'ano': 2015}, 
@@ -55,10 +55,10 @@ dados = {
     'Passat': {'km': 62000, 'ano': 1999}
 }
 
-ef km_media(dataset, ano_atual):
+def km_media(dataset, ano_atual):
    for item in dataset.values():
         result = item['km'] / (ano_atual - item['ano'])
         print(result)
-km_media(dados, 2019)
+        km_media(dados, 2019)
 
-no exemplo acima é acessado os itens 'km' e os itens 'ano' do dicionario
+#no exemplo acima é acessado os itens 'km' e os itens 'ano' do dicionario

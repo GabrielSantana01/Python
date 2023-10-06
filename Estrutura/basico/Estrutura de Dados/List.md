@@ -46,7 +46,7 @@ Podemos ainda criar listas através da função range(), dessa forma:
 list(range(10))
 ```
 Saida:
-```py
+```py## CONCEITO
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 ### Acessando dados da lista
@@ -163,3 +163,18 @@ Eu vou usar links apartir de agora, como biblioteca. a ideia é acessar essas bi
 A organização agora tem que categorizar essa biblioteca.
 
 https://pythonacademy.com.br/blog/manipulacao-de-listas-no-python
+
+
+uma outra estrutura de lista é o Conjunto (ou set) nesse não é possivel repetir valores
+por exemplo em uma lista é possivel ter os valores abaixo:
+```py
+const lista = [1, 1, 1, 3, 5, 7, 9];
+```py
+
+como no conjunto isso não é possivel:
+```py
+lista = [1, 1, 1, 3, 5, 7, 9];
+conjunto = Set(lista);
+print(conjunto);
+# Set(5) { 1, 3, 5, 7, 9 }
+```py
