@@ -58,6 +58,17 @@ git remote add origin url
 git push -u origin main
 git ls.files
 --------------------------------------------------------------------------------------------------------------------
+quando existe uma alteração direta o repositorio remoto vai ocorrer conflito quando tentamos realizar um push do repositorio
+local para o remoto.
+
+para resolver isso temos que realizar um pull das informaçõe do repositorio remoto para o repositorio local, assim nossos arquivos voltaram a esta 
+sincronizado. 
+
+apos o processo damos continuidade ao push do repositorio local para o repositorio remoto, no processo de pull realizado anteriormente
+o github faz uma mesclagem do que tem a mais no repositorio remoto e so adiciona no repositorio local os arquivos que esta faltando. 
+
+resolvido o conflito é possivel realizar o push.
+--------------------------------------------------------------------------------------------------------------------
 para adicionar o token do gitbub no windows temos que adicionar a credenciais genericas.
 ja no linux devemos utilizar a chave uma vez e colocar o comando git config --global credential.helper cache para salvar o uso do token.
 para retirar essa configuração :git config --global --unset credential.helper
