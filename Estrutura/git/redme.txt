@@ -63,4 +63,4 @@ ja no linux devemos utilizar a chave uma vez e colocar o comando git config --gl
 para retirar essa configuração :git config --global --unset credential.helper
 --------------------------------------------------------------------------------------------
 git config --global user.email "you@example.com"
-git config --global user.name "Your Name"
+git config --global user.name "GabrielSantana01"
