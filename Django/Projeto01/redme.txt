@@ -1,0 +1,104 @@
+dentro do ambiente virtual vamos instalar o django
+pip install django
+python -m django --version
+
+-----------------------------------------------------------------
+criando um aplicativo
+python manage.py startapp meuapp
+pip freeze
+pip freeze > requirements.txt # esse comando salva as bibliotecas utilizadas.
+-----------------------------------------------------------------
+com o comando:
+django-admin help // podemos ver todos os comando que podemos dar na ferramenta.
+startproject // vai criar uma pasta setup com todos os arquivos de novo projeto.
+django-admin startproject setup . // setup é o nome da pasta. se nao colocar o ponto no final vai criar duas pasta setup
+python manage.py runserver
+
+--------------------------------------------------------------------------
+para fazermos o versonamento precisamos tirar a chave secreta que existe dentro do arquivo settings.py
+
+para isso vamos criar uma função dentro do script settings.py e para essa função temos que baixar a biblioteca:
+pip install python-dotenv.
+
+colocaremos a seguinte função no settings:
+from pathlib import Path, os
+from dotenv import load_dotenv
+
+load_dotenv()
+e no lugar onde estava a nossa secret key vamos chamar essa função
+str(os.getenv('SECRET_KEY'))
+
+essa função ira acessar uma pasta que nao vai pro github, essa pasta é chamada de .env e ela sim tem a chave secreta.
+
+vamos criar um arquivo chamado .gitignore e dentro dele colocaremos o arquivo .env
+--------------------------------------------------------------------------------------------------
+paara rodar a pagina usamos o seguinte comando 
+python manage.py runserver
+python manage.py migrate # atualiza a conexao do banco
+netstat -ano | findstr :8080 # identifica o processo que esta usando a porta 8080
+taskkill /F /PID 1234 # finaliza o processo
+------------------------------------------------------------------------------------------------
+manage.py:
+O manage.py é um utilitário de linha de comando que permite interagir com seu projeto Django.
+Ele é usado para realizar várias tarefas, como iniciar um servidor de desenvolvimento, criar migrações de banco de dados, criar superusuários, entre outras.
+É usado principalmente durante o desenvolvimento do projeto e não é implantado em um ambiente de produção.
+-------minha visão-------
+vejo que o manage.py é um arquivo nescessario para a estrutura na biblioteca Django é usada pra rodar o metodo main que determina o settings.py como arquivos dentantor
+das configurações do projeto
+
+settings.py:
+O settings.py contém as configurações do seu projeto Django.
+Nele, você define coisas como a configuração do banco de dados, as chaves secretas, os aplicativos instalados, as configurações de internacionalização, entre outras.
+É um arquivo fundamental para configurar e personalizar o comportamento do seu projeto Django.
+
+views.py:
+O views.py contém as funções de visualização (views) que processam as solicitações HTTP dos clientes e retornam respostas.
+Cada função de visualização geralmente corresponde a uma URL específica do seu site e é responsável por retornar o conteúdo correto para essa URL.
+As visualizações interagem com modelos para recuperar dados do banco de dados e com os templates para renderizar o conteúdo HTML a ser retornado ao cliente.
+
+Arquivo urls.py:
+Configure as rotas para essas views em seu arquivo urls.py:
+
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('', views.index, name='index'),
+    path('inicial/', views.inicial, name='inicial'),
+
+----minha visao-----
+dentro de url.py vamos acessar os metodos criados dentro do arquivo views.py
+a sintax do codigo:
+path('inicial'...) = é o nome do diretorio pagina aquele que fica na url(http://seusite.com/inicial/), quando vazio é a pagina raiz.
+path(...'views.inicial'...) = esse é o metodos dentro de views.py que renderiza a pagina inicial.html 
+path(...'name='inicial') = aqui ja é uma variavel para usarmos de link no codigo html/Django. para usar o link: {% url 'inicial' %}
+--------------------------------------------------------------------------------------
+Requisições HTML:
+GET: O método GET é usado para solicitar dados do servidor. Quando um formulário é enviado usando GET, os dados do formulário são 
+anexados à URL como uma string de consulta. Isso significa que os dados do formulário são visíveis na barra de endereços do navegador.
+O método GET é adequado para solicitações que não alteram o estado do servidor, como pesquisas.
+html
+Copy code
+<form method="GET" action="/search">
+    <input type="text" name="q" placeholder="Pesquisar...">
+    <button type="submit">Pesquisar</button>
+</form>
+
+POST: O método POST é usado para enviar dados para o servidor no corpo da requisição HTTP. Os dados do formulário não são visíveis 
+na URL. O método POST é adequado para solicitações que podem alterar o estado do servidor, como enviar um formulário de login.
+html
+Copy code
+<form method="POST" action="/login">
+    <input type="text" name="username" placeholder="Usuário" required>
+    <input type="password" name="password" placeholder="Senha" required>
+    <button type="submit">Entrar</button>
+</form>
+PUT e DELETE: Embora menos comuns em formulários HTML, os métodos PUT e DELETE também são usados para enviar dados para o servidor.
+ PUT é usado para atualizar recursos existentes, enquanto DELETE é usado para excluir recursos.
+
+PATCH: O método PATCH é usado para fazer alterações parciais em um recurso. É semelhante ao PUT, mas em vez de substituir o recurso 
+inteiro, ele apenas atualiza os campos especificados.
+
+Além disso, é importante entender que os formulários HTML também possuem os atributos action, que especifica para onde os dados do 
+formulário devem ser enviados, e method, que especifica o método de requisição a ser usado (GET, POST, etc.). Estes atributos 
+são essenciais para definir como o formulário interage com o servidor.

@@ -36,3 +36,7 @@ print('_'* len(forca))# exibi a quantidade de _ no tamanho de forca
 \t # concatena os valores
 print(f'o nome{} foi aprovado com nota{}', end='') # o end no final é para exibir os valores na mesma linha
 -----------------------------------------------------------------------------------------------------
+https://www.python.org/doc/
+https://wiki.python.org.br/EstruturaSequencial
+https://docs.python.org/pt-br/3/library/string.html#grammar-token-format-string-format_spec
+https://cienciaprogramada.com.br/2022/03/formatacao-strings-python/
