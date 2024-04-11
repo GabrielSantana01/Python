@@ -7,9 +7,9 @@ load_dotenv()
 
 AUTHENTICATION_BACKENDS = os.getenv('AUTHENTICATION_BACKENDS')
 AUTH_LDAP_SERVER_URI = os.getenv('AUTH_LDAP_SERVER_URI')
-AUTH_LDAP_BIND_DN = os.getenv('AUTH_LDAP_BIND_DN')
-AUTH_LDAP_BIND_PASSWORD = os.getenv('AUTH_LDAP_BIND_PASSWORD')
-AUTH_LDAP_USER_SEARCH = os.getenv('AUTH_LDAP_USER_SEARCH')
+AUTH_LDAP_BIND_DN = os.getenv('')
+AUTH_LDAP_BIND_PASSWORD = os.getenv('')
+AUTH_LDAP_USER_SEARCH = os.getenv('')
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -19,7 +19,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-#str(os.getenv('SECRET_KEY'))
 SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -48,12 +47,12 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'setup.urls'
+ROOT_URLCONF = 'SETUP.urls'
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR,'templates')],
+        'DIRS': [os.path.join(BASE_DIR, 'SETUP/login/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -66,7 +65,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'setup.wsgi.application'
+WSGI_APPLICATION = 'SETUP.wsgi.application'
 
 
 # Database
@@ -102,9 +101,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
-LANGUAGE_CODE = 'pt-br'
+LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'America/Sao_Paulo'
+TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
