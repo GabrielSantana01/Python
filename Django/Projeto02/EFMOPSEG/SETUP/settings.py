@@ -7,9 +7,9 @@ load_dotenv()
 
 AUTHENTICATION_BACKENDS = os.getenv('AUTHENTICATION_BACKENDS')
 AUTH_LDAP_SERVER_URI = os.getenv('AUTH_LDAP_SERVER_URI')
-AUTH_LDAP_BIND_DN = os.getenv('')
-AUTH_LDAP_BIND_PASSWORD = os.getenv('')
-AUTH_LDAP_USER_SEARCH = os.getenv('')
+AUTH_LDAP_BIND_DN = os.getenv('AUTH_LDAP_BIND_DN')
+AUTH_LDAP_BIND_PASSWORD = os.getenv('AUTH_LDAP_BIND_PASSWORD')
+AUTH_LDAP_USER_SEARCH = os.getenv('AUTH_LDAP_USER_SEARCH')
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
