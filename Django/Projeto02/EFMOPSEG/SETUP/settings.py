@@ -11,6 +11,10 @@ AUTH_LDAP_BIND_DN = os.getenv('AUTH_LDAP_BIND_DN')
 AUTH_LDAP_BIND_PASSWORD = os.getenv('AUTH_LDAP_BIND_PASSWORD')
 AUTH_LDAP_USER_SEARCH = os.getenv('AUTH_LDAP_USER_SEARCH')
 
+AUTHENTICATION_BACKENDS = [
+    'django_auth_ldap.backend.LDAPBackend',
+    'django.contrib.auth.backends.ModelBackend',
+]
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 

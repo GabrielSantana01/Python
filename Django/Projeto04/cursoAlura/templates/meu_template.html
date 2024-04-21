@@ -1,0 +1,28 @@
+<!-- meu_template.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Minha Tabela</title>
+</head>
+<body>
+    <h1>Minha Tabela</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Campo 1</th>
+                <th>Campo 2</th>
+                <!-- Adicione mais colunas conforme necessário -->
+            </tr>
+        </thead>
+        <tbody>
+            {% for dado in dados %}
+            <tr>
+                <td>{{ dado.campo1 }}</td>
+                <td>{{ dado.campo2 }}</td>
+                <!-- Adicione mais colunas conforme necessário -->
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

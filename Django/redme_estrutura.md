@@ -22,7 +22,12 @@ echo $PYTHONPATH # para ver se o caminho esta no pythonpath
 ~/.bashrc # esse comando reinicia o terminal ?
 pip install freeze
 pip freeze > requirements.txt # esse comando salva as bibliotecas utilizadas.
+pip install -r requirements.txt -- para instalar as bibliotecas
 python manage.py runserver
+apos mudar o arquivo venv de diretorio tive alguns problemas para instalar bibliotecas:
+nano caminho_para_venv/bin/activate # usei esse comando para mudar o diretorio do venv
+e tive que alterar a primeira linha de todos os arquivos dentro de venv, pois estava pegando o diretorio antigo
+which python # para saber em qual virtualização vc esta.
 --------------------------------------------------------------------------
 para fazermos o versonamento precisamos tirar a chave secreta que existe dentro do arquivo settings.py
 
@@ -43,16 +48,11 @@ vamos criar um arquivo chamado .gitignore e dentro dele colocaremos o arquivo .e
 --------------------------------------------------------------------------------------------------
 paara rodar a pagina usamos o seguinte comando 
 python manage.py runserver
+python manage.py makemigrations
 python manage.py migrate # atualiza a conexao do banco
 netstat -ano | findstr :8080 # identifica o processo que esta usando a porta 8080
 taskkill /F /PID 1234 # finaliza o processo
 ------------------------------------------------------------------------------------------------
-AD(Active Directory) e Django
-
-pip install python-ldap
-pip install django-auth-ldap
-
-
 
 
 manage.py:
@@ -90,32 +90,3 @@ path('inicial'...) = é o nome do diretorio pagina aquele que fica na url(http:/
 path(...'views.inicial'...) = esse é o metodos dentro de views.py que renderiza a pagina inicial.html 
 path(...'name='inicial') = aqui ja é uma variavel para usarmos de link no codigo html/Django. para usar o link: {% url 'inicial' %}
 --------------------------------------------------------------------------------------
-Requisições HTML:
-GET: O método GET é usado para solicitar dados do servidor. Quando um formulário é enviado usando GET, os dados do formulário são 
-anexados à URL como uma string de consulta. Isso significa que os dados do formulário são visíveis na barra de endereços do navegador.
-O método GET é adequado para solicitações que não alteram o estado do servidor, como pesquisas.
-html
-Copy code
-<form method="GET" action="/search">
-    <input type="text" name="q" placeholder="Pesquisar...">
-    <button type="submit">Pesquisar</button>
-</form>
-
-POST: O método POST é usado para enviar dados para o servidor no corpo da requisição HTTP. Os dados do formulário não são visíveis 
-na URL. O método POST é adequado para solicitações que podem alterar o estado do servidor, como enviar um formulário de login.
-html
-Copy code
-<form method="POST" action="/login">
-    <input type="text" name="username" placeholder="Usuário" required>
-    <input type="password" name="password" placeholder="Senha" required>
-    <button type="submit">Entrar</button>
-</form>
-PUT e DELETE: Embora menos comuns em formulários HTML, os métodos PUT e DELETE também são usados para enviar dados para o servidor.
- PUT é usado para atualizar recursos existentes, enquanto DELETE é usado para excluir recursos.
-
-PATCH: O método PATCH é usado para fazer alterações parciais em um recurso. É semelhante ao PUT, mas em vez de substituir o recurso 
-inteiro, ele apenas atualiza os campos especificados.
-
-Além disso, é importante entender que os formulários HTML também possuem os atributos action, que especifica para onde os dados do 
-formulário devem ser enviados, e method, que especifica o método de requisição a ser usado (GET, POST, etc.). Estes atributos 
-são essenciais para definir como o formulário interage com o servidor.

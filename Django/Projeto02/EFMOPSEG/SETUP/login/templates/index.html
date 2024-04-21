@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Protótipo</title>
+
 <style>
     body {
         margin: 0;
@@ -25,6 +26,7 @@
     }
 
     .login-container {
+        position: relative;
         width: 300px;
         margin: 50px auto;
         padding: 20px;
@@ -51,6 +53,29 @@
         border-radius: 3px;
         cursor: pointer;
     }
+
+    /* Novo estilo para o botão "Cadastro Local" */
+    .btn-cadastro-local {
+        position: absolute;
+        top: 50%;
+        border: none;
+        right: -90px;
+        transform: translateY(-50%);
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color: #333;
+        color: white;
+        text-align: center;
+        font-size: 24px;
+        line-height: 80px;
+        cursor: pointer;
+    }
+
+    /* Estilo para o ícone de "+" 
+    .btn-cadastro-local::before {
+        content: '+';
+    }*/
 </style>
 </head>
 <body>
@@ -63,6 +88,10 @@
             <input type="password" name="password" placeholder="Senha" required><br>
             <button type="submit">Entrar</button>
         </form>
+        <button class = "btn-cadastro-local" onclick="window.location.href='{% url 'CadastroLocal' %}'">
+            +
+        </button>
     </div>
+
 </body>
 </html>
