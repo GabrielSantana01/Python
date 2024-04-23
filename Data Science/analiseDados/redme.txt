@@ -38,10 +38,8 @@ df['valor'] = df['valor'].round(2)# esse codigo condiciona os valores da coluna 
 df = df.to_html(index=False)# a primeira coisa que devemos fazer apos conseguir puxar os dados é organizar ele em tabela, o index igual a false faz com que a coluna de indice nao apareca mais  somente apos a tabela esta bem formatada é que vamos modificar os dados em visoes diferentes.
 df.reset_index(drop=True, inplace=True)# em uma situação de filtros onde usariamos o indice fazemos assim para recetar a contagem como se fosse uma tabela nova.
 df = df[['tagname', 'valor']]# ja aqui selecionamos as colunas na qual queremos trabalhar
-df['filtro'] = df['tagname'].str.split('_').str[0]# esse cara cria uma coluna nova chamada filtro e separa a coluna tagname em duas parte, uma antes do '_' e outra depois. quando colocamos str[0] pegamos a primeira parte
-value_counts() em uma coluna de um DataFrame no Pandas, o resultado é uma Series onde os índices são os valores únicos da coluna e os valores são as contagens de cada valor na coluna.
-df = df['tagname'].str.split('_').str[0].value_counts()# nesse codigo df deixe de ser um DataFrame e se torna uma Serie, a tecnica pra transformalo novamente em Dataframe é a seguinte:
-reset_index() transforma o resultado em um novo DataFrame, onde os prefixos são a nova coluna 'index' (o índice padrão do DataFrame) . uma serie é uma tabela com um indici e uma coluna ja um dataframe é uma tabela com um indici e varias colunas. precisamos converter o tipo series em dataframe no nosso exemplo pq a pagina html ja esta estruturada pra receber uma tabela
+--------------------------------------------------------------
+df_off = df_off['tagname'].str.split('_').str[0].value_counts().reset_index()# esse cara cria uma coluna nova chamada filtro e separa a coluna tagname em duas parte, uma antes do '_' e outra depois. quando colocamos str[0] pegamos a primeira parte
+df = df['tagname'].str.split('_').str[0].value_counts()# nesse codigo df deixe de ser um DataFrame e se torna uma Serie, a tecnica pra transformalo novamente em Dataframe é a seguinte:reset_index() transforma o resultado em um novo DataFrame, onde os prefixos são a nova coluna 'index' (o índice padrão do DataFrame) . uma serie é uma tabela com um indici e uma coluna ja um dataframe é uma tabela com um indici e varias colunas. precisamos converter o tipo series em dataframe no nosso exemplo pq a pagina html ja esta estruturada pra receber uma tabela value_counts() em uma coluna de um DataFrame no Pandas, o resultado é uma Series onde os índices são os valores únicos da coluna e os valores são as contagens de cada valor na coluna.
 df.columns = ['Nome', 'Contagem'] por ultimo colocamos nomes no antigo indice que virou coluna e na outra coluna
-df = df['tagname'].str.split('_').str[0].value_counts().reset_index()# as partes acima é um analise dessa linha
-raua
+
