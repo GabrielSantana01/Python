@@ -44,3 +44,4 @@ df = df['tagname'].str.split('_').str[0].value_counts()# nesse codigo df deixe d
 reset_index() transforma o resultado em um novo DataFrame, onde os prefixos são a nova coluna 'index' (o índice padrão do DataFrame) . uma serie é uma tabela com um indici e uma coluna ja um dataframe é uma tabela com um indici e varias colunas. precisamos converter o tipo series em dataframe no nosso exemplo pq a pagina html ja esta estruturada pra receber uma tabela
 df.columns = ['Nome', 'Contagem'] por ultimo colocamos nomes no antigo indice que virou coluna e na outra coluna
 df = df['tagname'].str.split('_').str[0].value_counts().reset_index()# as partes acima é um analise dessa linha
+raua
