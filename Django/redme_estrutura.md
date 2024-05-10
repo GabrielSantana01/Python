@@ -13,15 +13,17 @@ python -m django --version ou pip list
 com o comando:
 django-admin help // podemos ver todos os comando que podemos dar na ferramenta.
 django-admin startproject setup . // setup é o nome da pasta. se nao colocar o ponto no final vai criar duas pasta setup #startproject // vai criar uma pasta setup com todos os arquivos de novo projeto.
-
+-----------------------------------------------------------------------------------
 criando um aplicativo
 python manage.py startapp meu_aplicativo SETUP/meu_aplicativo
 python manage.py startapp login SETUP/login
 ---- caso o comando acima nao der certo export PYTHONPATH=$PYTHONPATH:~/Python/Django/Projeto02/EFMOPSEG$ # use esse para colocar a pasta no PYTHONPATH
 echo $PYTHONPATH # para ver se o caminho esta no pythonpath
 ~/.bashrc # esse comando reinicia o terminal ?
-pip install freeze
-pip freeze > requirements.txt # esse comando salva as bibliotecas utilizadas.
+
+--------------------------------------------------------------------------------------------
+python -m pip freeze
+python -m pip freeze > requirements.txt # esse comando salva as bibliotecas utilizadas.
 pip install -r requirements.txt -- para instalar as bibliotecas
 python manage.py runserver
 apos mudar o arquivo venv de diretorio tive alguns problemas para instalar bibliotecas:
@@ -53,6 +55,11 @@ python manage.py migrate # atualiza a conexao do banco
 netstat -ano | findstr :8080 # identifica o processo que esta usando a porta 8080
 taskkill /F /PID 1234 # finaliza o processo
 ------------------------------------------------------------------------------------------------
+ainda no arquivo settings.py temos que setar alguns ajustes:
+
+
+
+
 
 
 manage.py:
@@ -90,3 +97,5 @@ path('inicial'...) = é o nome do diretorio pagina aquele que fica na url(http:/
 path(...'views.inicial'...) = esse é o metodos dentro de views.py que renderiza a pagina inicial.html 
 path(...'name='inicial') = aqui ja é uma variavel para usarmos de link no codigo html/Django. para usar o link: {% url 'inicial' %}
 --------------------------------------------------------------------------------------
+-----models.py --- ORM
+O arquivo models.py em um projeto Django tem a função de definir a estrutura e o comportamento dos dados que serão armazenados no banco de dados. Nele, você define classes que representam tabelas no banco de dados, onde cada atributo da classe corresponde a uma coluna na tabela.
