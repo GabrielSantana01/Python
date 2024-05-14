@@ -75,3 +75,19 @@ para retirar essa configuração :git config --global --unset credential.helper
 --------------------------------------------------------------------------------------------
 git config --global user.email "you@example.com"
 git config --global user.name "GabrielSantana01"
+---------------------------------------------------------------------------------------------
+crie uma estrutura com 3 branchs.
+criei uma branch que contia o projeto com a estrutura padrao django, a ideia é usar esse cara toda vez que 
+tiver um novo projeto.
+para isso apliquei o seguinte comando:
+git checkout -b modelo-padrao #cria a branch nova, isso no repositorio local para criar a branch no repositorio remoto é preciso da um push
+git add .
+git commit -m "Criar branch modelo-padrao com projeto inicial"
+git push origin modelo-padrao # cria a branch modelo-padrao no repositorio remoto.
+git push origin minha-branch:outra-branch # esse comando faz eu enviar a versao de uma branch no repositorio local para uma outra branch no repositorio remoto
+git checkout nome-da-branch#muda para a branch
+git branch # verificar as branch existente
+------tranferencia----
+mude para a branch de destino = git checkout main
+mescle as branch = git merge feature
+confirmar as alterações = git commit -m ""
