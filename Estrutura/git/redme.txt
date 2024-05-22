@@ -75,3 +75,19 @@ para retirar essa configuração :git config --global --unset credential.helper
 --------------------------------------------------------------------------------------------
 git config --global user.email "you@example.com"
 git config --global user.name "GabrielSantana01"
+-----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+aqui vou iniciar uma aplicação da ferramenta git em um nivel mais intermediario aqui vou deixar um branch como produção, seu nome main lenbrando que quando verificamos a branch remota o nome é origin.
+acima tem alguns comandos ja usando essa questao de branchs, aqui vou mencionar como vai funcionar a organização.
+o branch main tera tudo que esta em produção ou seja a versao final dos arquivos.
+o branch modelo-padrao sever para ter os arquivos dos projetos em uma versao basica, um esqueleto.
+o branch nova-branch é para desenvolver, pegando do modelo-padrao, e usado na nova-branch ate concluir, e finalmente jogar no main
+
+passo01 = git checkout branch-destino # vc acessa a branch desejada
+estando no branch que vc quer trabalhar desenvolva o projeto ai vc deve addicionar as alterações desse branch no conteiner e depois realizar commit
+git add .
+git commit -m "bla bla bla"
+depois disso temos que acessar o branch em produção onde vamos salvar os projetos finalizados feito em outra branch.
+passo02 = git checkout branch-destino 
+git merge branch-nova
