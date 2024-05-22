@@ -1,1 +1,31 @@
-teste
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EFMDPTO</title>
+    <link rel="stylesheet" href="{% static '/style.css' %}">
+    <script src="{% static 'scripts.js' %}" defer></script>
+</head>
+<body>
+    <header>
+        <h1>EFMDPTO</h1>
+    </header>
+    <main>
+        <h2>Quadro Geral </h2>
+        <form>
+            <select id="cars" name="cars">
+              <option value="at06">at06</option>
+              <option value="CNOVA">CNOVA</option>
+              <option value="PLZ1">PLZ1</option>
+              <option value="NCT">NCT</option>
+            </select>
+        <button id="enviarFiltro">Enviar</button>
+
+
+    </main>
+
+</body>
+</html>
