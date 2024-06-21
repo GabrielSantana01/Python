@@ -1,0 +1,693 @@
+TagName,obs
+MCLC_A06_C00_VAV03.Temp,controladora offline
+MCLC_A06_C00_VAV03.Damper,controladora offline
+MCLC_A06_C00_VAV03.VazaoMax,controladora offline
+MCLC_Disp12_Control10.estado02,foi corrigido a integraá∆o ponto com leitura boa
+MCLC_A03_C00_VAV07.Damper,controladora offline
+MCLC_A03_C00_VAV07.SPTemp,controladora offline
+MCLC_A03_C00_VAV07.Temp,controladora offline
+MCLC_A03_C00_VAV07.Vazao,controladora offline
+MCLC_A03_C00_VAV07.VazaoMax,controladora offline
+MCLC_A03_C00_VAV07.VazaoMin,controladora offline
+MCLC_A03_C00_VAV22.Damper,controladora offline
+MCLC_A03_C00_VAV22.SPTemp,controladora offline
+MCLC_A03_C00_VAV22.Temp,controladora offline
+MCLC_A03_C00_VAV22.Vazao,controladora offline
+MCLC_A03_C00_VAV22.VazaoMax,controladora offline
+MCLC_A03_C00_VAV22.VazaoMin,controladora offline
+MCLC_A05_C00_VAV10.Damper,os pontos estado com problema de id no proprio supervisorio
+MCLC_A05_C00_VAV10.SPTemp,os pontos estado com problema de id no proprio supervisorio
+MCLC_A05_C00_VAV10.Temp,os pontos estado com problema de id no proprio supervisorio
+MCLC_A05_C00_VAV10.Vazao,os pontos estado com problema de id no proprio supervisorio
+MCLC_A05_C00_VAV10.VazaoMax,os pontos estado com problema de id no proprio supervisorio
+MCLC_A05_C00_VAV10.VazaoMin,os pontos estado com problema de id no proprio supervisorio
+MCLC_A06_C00_VAV03.Vazao,controladora offline
+MCLC_A06_C00_VAV03.VazaoMin,controladora offline
+MCLC_A10_C00_VAV06.Damper,controladora offline
+MCLC_A10_C00_VAV06.SPTemp,controladora offline
+MCLC_A10_C00_VAV06.Temp,controladora offline
+MCLC_A10_C00_VAV06.Vazao,controladora offline
+MCLC_A10_C00_VAV06.VazaoMax,controladora offline
+MCLC_A10_C00_VAV06.VazaoMin,controladora offline
+MCLC_A11_C00_VAV21.Damper,controladora offline
+MCLC_A11_C00_VAV21.SPTemp,controladora offline
+MCLC_A11_C00_VAV21.Temp,controladora offline
+MCLC_A11_C00_VAV21.Vazao,controladora offline
+MCLC_A11_C00_VAV21.VazaoMax,controladora offline
+MCLC_A11_C00_VAV21.VazaoMin,controladora offline
+MCLC_A04_C00_VAV01.SPVazao,ponto nescessario para air manager
+MCLC_A04_C00_VAV02.confiabilidade,ponto excluido da estrutura
+MCLC_A04_C00_VAV02.Damper,ponto excluido da estrutura
+MCLC_A04_C00_VAV02.SPTemp,ponto excluido da estrutura
+MCLC_A04_C00_VAV02.SPVazao,ponto excluido da estrutura
+MCLC_A04_C00_VAV02.Temp,ponto excluido da estrutura
+MCLC_A04_C00_VAV02.Vazao,ponto excluido da estrutura
+MCLC_A04_C00_VAV02.VazaoMax,ponto excluido da estrutura
+MCLC_A04_C00_VAV02.VazaoMin,ponto excluido da estrutura
+MCLC_A04_C00_VAV03.SPVazao,ponto nescessario para air manager
+MCLC_A04_C00_VAV04.SPVazao,ponto nescessario para air manager
+MCLC_A04_C00_VAV05.SPVazao,ponto nescessario para air manager
+MCLC_A04_C00_VAV06.SPVazao,ponto nescessario para air manager
+MCLC_A04_C00_VAV07.SPVazao,ponto nescessario para air manager
+MCLC_A04_C00_VAV08.SPVazao,ponto nescessario para air manager
+MCLC_A04_C00_VAV09.SPVazao,ponto nescessario para air manager
+MCLC_A04_C00_VAV10.SPVazao,ponto nescessario para air manager
+MCLC_A04_C00_VAV11.SPVazao,ponto nescessario para air manager
+MCLC_A04_C00_VAV12.SPVazao,ponto nescessario para air manager
+MCLC_A04_C00_VAV13.SPVazao,ponto nescessario para air manager
+MCLC_A04_C00_VAV14.SPVazao,ponto nescessario para air manager
+MCLC_A04_C00_VAV15.SPVazao,ponto nescessario para air manager
+MCLC_A04_C00_VAV16.SPVazao,ponto nescessario para air manager
+MCLC_A04_C00_VAV17.SPVazao,ponto nescessario para air manager
+MCLC_A05_C00_VAV01.SPVazao,ponto nescessario para air manager
+MCLC_A05_C00_VAV02.SPVazao,ponto nescessario para air manager
+MCLC_A05_C00_VAV03.SPVazao,ponto nescessario para air manager
+MCLC_A05_C00_VAV04.SPVazao,ponto nescessario para air manager
+MCLC_A05_C00_VAV05.SPVazao,ponto nescessario para air manager
+MCLC_A05_C00_VAV06.SPVazao,ponto nescessario para air manager
+MCLC_A05_C00_VAV07.SPVazao,ponto nescessario para air manager
+MCLC_A05_C00_VAV08.SPVazao,ponto nescessario para air manager
+MCLC_A05_C00_VAV09.SPVazao,ponto nescessario para air manager
+MCLC_A05_C00_VAV10.SPVazao,ponto nescessario para air manager
+MCLC_A05_C00_VAV11.SPVazao,ponto nescessario para air manager
+MCLC_A05_C00_VAV12.SPVazao,ponto nescessario para air manager
+MCLC_A05_C00_VAV13.SPVazao,ponto nescessario para air manager
+MCLC_A05_C00_VAV14.SPVazao,ponto nescessario para air manager
+MCLC_A05_C00_VAV16.SPVazao,ponto nescessario para air manager
+MCLC_A05_C00_VAV17.SPVazao,ponto nescessario para air manager
+MCLC_A05_C00_VAV18.SPVazao,ponto nescessario para air manager
+MCLC_A05_C00_VAV19.SPVazao,ponto nescessario para air manager
+MCLC_A05_C00_VAV20.SPVazao,ponto nescessario para air manager
+MCLC_A05_C00_VAV21.SPVazao,ponto nescessario para air manager
+MCLC_A05_C00_VAV22.SPVazao,ponto nescessario para air manager
+MCLC_A05_C00_VAV23.SPVazao,ponto nescessario para air manager
+MCLC_A05_C00_VAV24.SPVazao,ponto nescessario para air manager
+MCLC_A05_C00_VAV29.SPVazao,ponto nescessario para air manager
+MCLC_A03_C00_VAV01.SPVazao,ponto nescessario para air manager
+MCLC_A03_C00_VAV02.SPVazao,ponto nescessario para air manager
+MCLC_A03_C00_VAV03.SPVazao,ponto nescessario para air manager
+MCLC_A03_C00_VAV04.SPVazao,ponto nescessario para air manager
+MCLC_A03_C00_VAV05.SPVazao,ponto nescessario para air manager
+MCLC_A03_C00_VAV06.SPVazao,ponto nescessario para air manager
+MCLC_A03_C00_VAV07.SPVazao,ponto nescessario para air manager
+MCLC_A03_C00_VAV08.SPVazao,ponto nescessario para air manager
+MCLC_A03_C00_VAV09.SPVazao,ponto nescessario para air manager
+MCLC_A03_C00_VAV10.SPVazao,ponto nescessario para air manager
+MCLC_A03_C00_VAV11.SPVazao,ponto nescessario para air manager
+MCLC_A03_C00_VAV12.SPVazao,ponto nescessario para air manager
+MCLC_A03_C00_VAV13.SPVazao,ponto nescessario para air manager
+MCLC_A03_C00_VAV14.SPVazao,ponto nescessario para air manager
+MCLC_A03_C00_VAV15.SPVazao,ponto nescessario para air manager
+MCLC_A03_C00_VAV16.SPVazao,ponto nescessario para air manager
+MCLC_A03_C00_VAV17.SPVazao,ponto nescessario para air manager
+MCLC_A03_C00_VAV18.SPVazao,ponto nescessario para air manager
+MCLC_A03_C00_VAV19.SPVazao,ponto nescessario para air manager
+MCLC_A03_C00_VAV20.SPVazao,ponto nescessario para air manager
+MCLC_A03_C00_VAV21.SPVazao,ponto nescessario para air manager
+MCLC_A03_C00_VAV22.SPVazao,ponto nescessario para air manager
+MCLC_A11_C00_VAV01.SPVazao,ponto nescessario para air manager
+MCLC_A11_C00_VAV02.SPVazao,ponto nescessario para air manager
+MCLC_A11_C00_VAV03.SPVazao,ponto nescessario para air manager
+MCLC_A11_C00_VAV04.SPVazao,ponto nescessario para air manager
+MCLC_A11_C00_VAV05.SPVazao,ponto nescessario para air manager
+MCLC_A11_C00_VAV06.SPVazao,ponto nescessario para air manager
+MCLC_A11_C00_VAV07.SPVazao,ponto nescessario para air manager
+MCLC_A11_C00_VAV08.SPVazao,ponto nescessario para air manager
+MCLC_A11_C00_VAV09.SPVazao,ponto nescessario para air manager
+MCLC_A11_C00_VAV10.SPVazao,ponto nescessario para air manager
+MCLC_A11_C00_VAV11.SPVazao,ponto nescessario para air manager
+MCLC_A11_C00_VAV12.SPVazao,ponto nescessario para air manager
+MCLC_A11_C00_VAV13.SPVazao,ponto nescessario para air manager
+MCLC_A11_C00_VAV14.SPVazao,ponto nescessario para air manager
+MCLC_A11_C00_VAV15.SPVazao,ponto nescessario para air manager
+MCLC_A11_C00_VAV16.SPVazao,ponto nescessario para air manager
+MCLC_A11_C00_VAV17.SPVazao,ponto nescessario para air manager
+MCLC_A11_C00_VAV18.SPVazao,ponto nescessario para air manager
+MCLC_A11_C00_VAV19.SPVazao,ponto nescessario para air manager
+MCLC_A11_C00_VAV20.SPVazao,ponto nescessario para air manager
+MCLC_A11_C00_VAV21.SPVazao,ponto nescessario para air manager
+MCLC_A10_C00_VAV01.SPVazao,ponto nescessario para air manager
+MCLC_A10_C00_VAV02.SPVazao,ponto nescessario para air manager
+MCLC_A10_C00_VAV03.SPVazao,ponto nescessario para air manager
+MCLC_A10_C00_VAV04.SPVazao,ponto nescessario para air manager
+MCLC_A10_C00_VAV05.SPVazao,ponto nescessario para air manager
+MCLC_A10_C00_VAV06.SPVazao,ponto nescessario para air manager
+MCLC_A10_C00_VAV07.SPVazao,ponto nescessario para air manager
+MCLC_A10_C00_VAV08.SPVazao,ponto nescessario para air manager
+MCLC_A10_C00_VAV09.SPVazao,ponto nescessario para air manager
+MCLC_A10_C00_VAV10.SPVazao,ponto nescessario para air manager
+MCLC_A10_C00_VAV11.SPVazao,ponto nescessario para air manager
+MCLC_A10_C00_VAV12.SPVazao,ponto nescessario para air manager
+MCLC_A10_C00_VAV13.SPVazao,ponto nescessario para air manager
+MCLC_A10_C00_VAV14.SPVazao,ponto nescessario para air manager
+MCLC_A10_C00_VAV15.SPVazao,ponto nescessario para air manager
+MCLC_A10_C00_VAV16.SPVazao,ponto nescessario para air manager
+MCLC_A10_C00_VAV17.SPVazao,ponto nescessario para air manager
+MCLC_A10_C00_VAV18.SPVazao,ponto nescessario para air manager
+MCLC_A10_C00_VAV19.SPVazao,ponto nescessario para air manager
+MCLC_A10_C00_VAV20.SPVazao,ponto nescessario para air manager
+MCLC_A10_C00_VAV21.SPVazao,ponto nescessario para air manager
+MCLC_A10_C00_VAV22.SPVazao,ponto nescessario para air manager
+MCLC_A10_C00_VAV23.SPVazao,ponto nescessario para air manager
+MCLC_A10_C00_VAV24.SPVazao,ponto nescessario para air manager
+MCLC_A10_C00_VAV25.SPVazao,ponto nescessario para air manager
+MCLC_A10_C00_VAV26.SPVazao,ponto nescessario para air manager
+MCLC_A10_C00_VAV27.SPVazao,ponto nescessario para air manager
+MCLC_A10_C00_VAV28.SPVazao,ponto nescessario para air manager
+MCLC_Pri_RExp01.confiabilidade,ponto nescessario para air manager
+MCLC_A09_C00_VAV11.SPTemp,ponto nescessario para air manager
+MCLC_A09_C00_VAV12.SPTemp,ponto nescessario para air manager
+MCLC_A09_C00_VAV13.SPTemp,ponto nescessario para air manager
+MCLC_A09_C00_VAV18.SPTemp,ponto nescessario para air manager
+MCLC_A09_C00_VAV19.SPTemp,ponto nescessario para air manager
+MCLC_A09_C00_VAV14.SPTemp,ponto nescessario para air manager
+MCLC_A09_C00_VAV15.SPTemp,ponto nescessario para air manager
+MCLC_A09_C00_VAV16.SPTemp,ponto nescessario para air manager
+MCLC_A09_C00_VAV17.SPTemp,ponto nescessario para air manager
+MCLC_A09_C00_VAV20.SPTemp,ponto nescessario para air manager
+MCLC_D_ACom_QDNEAdm_M02.confiabilidade,"verificaá∆o com analistas, os pontos desse medidor esta em todos os alarmes de eletrica, como um medidor de entrada"
+MCLC_D_ACom_QDNEAdm_M02.consumo,"verificaá∆o com analistas, os pontos desse medidor esta em todos os alarmes de eletrica, como um medidor de entrada"
+MCLC_D_ACom_QDNEAdm_M02.correnteR,"verificaá∆o com analistas, os pontos desse medidor esta em todos os alarmes de eletrica, como um medidor de entrada"
+MCLC_D_ACom_QDNEAdm_M02.correnteS,"verificaá∆o com analistas, os pontos desse medidor esta em todos os alarmes de eletrica, como um medidor de entrada"
+MCLC_D_ACom_QDNEAdm_M02.correnteT,"verificaá∆o com analistas, os pontos desse medidor esta em todos os alarmes de eletrica, como um medidor de entrada"
+MCLC_D_ACom_QDNEAdm_M02.tensaoRS,"verificaá∆o com analistas, os pontos desse medidor esta em todos os alarmes de eletrica, como um medidor de entrada"
+MCLC_D_ACom_QDNEAdm_M02.tensaoST,"verificaá∆o com analistas, os pontos desse medidor esta em todos os alarmes de eletrica, como um medidor de entrada"
+MCLC_D_ACom_QDNEAdm_M02.tensaoTR,"verificaá∆o com analistas, os pontos desse medidor esta em todos os alarmes de eletrica, como um medidor de entrada"
+MCLC_Disp01_Control01.estado01,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control01.estado02,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control01.estado03,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control02.estado01,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control02.estado02,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control02.estado03,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control03.estado01,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control03.estado02,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control03.estado03,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control04.estado01,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control04.estado02,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control04.estado03,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control05.estado01,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control05.estado02,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control05.estado03,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control06.estado01,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control06.estado02,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control06.estado03,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control07.estado01,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control07.estado02,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control07.estado03,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control08.estado01,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control08.estado03,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control09.estado01,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control09.estado02,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control09.estado03,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control10.estado01,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control10.estado02,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control10.estado03,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control11.estado01,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control11.estado02,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control11.estado03,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control12.estado01,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control12.estado02,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control12.estado03,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control14.estado01,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control14.estado02,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control14.estado03,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control15.estado01,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control15.estado02,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control16.estado01,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control17.estado01,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control17.estado02,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control17.estado03,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control18.estado01,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control18.estado02,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control18.estado03,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control19.estado01,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control19.estado02,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control19.estado03,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control20.estado01,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control20.estado02,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control20.estado03,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control21.estado01,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control21.estado02,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control21.estado03,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control22.estado01,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control23.estado01,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control23.estado02,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp01_Control23.estado03,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp02_Control01.estado01,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp02_Control12.estado01,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp02_Control23.estado01,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp03_Control01.estado01,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp03_Control29.estado01,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp05_Control01.estado01,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp05_Control14.estado01,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp05_Control24.estado01,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp05_Control34.estado01,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_Disp05_Control46.estado01,"ponto n∆o existe mais na estrutura, foi deletado"
+MCLC_A06_C00_VAV02.SPVazao,ponto nescessario para air manager
+MCLC_A06_C00_VAV03.SPVazao,ponto nescessario para air manager
+MCLC_A06_C00_VAV04.SPVazao,ponto nescessario para air manager
+MCLC_A06_C00_VAV05.SPVazao,ponto nescessario para air manager
+MCLC_A06_C00_VAV06.SPVazao,ponto nescessario para air manager
+MCLC_A06_C00_VAV07.SPVazao,ponto nescessario para air manager
+MCLC_A06_C00_VAV08.SPVazao,ponto nescessario para air manager
+MCLC_A06_C00_VAV09.SPVazao,ponto nescessario para air manager
+MCLC_A06_C00_VAV10.SPVazao,ponto nescessario para air manager
+MCLC_A06_C00_VAV11.SPVazao,ponto nescessario para air manager
+MCLC_A06_C00_VAV12.SPVazao,ponto nescessario para air manager
+MCLC_A06_C00_VAV13.SPVazao,ponto nescessario para air manager
+MCLC_A06_C00_VAV14.SPVazao,ponto nescessario para air manager
+MCLC_A06_C00_VAV15.SPVazao,ponto nescessario para air manager
+MCLC_A06_C00_VAV16.SPVazao,ponto nescessario para air manager
+MCLC_A06_C00_VAV17.SPVazao,ponto nescessario para air manager
+MCLC_A06_C00_VAV18.SPVazao,ponto nescessario para air manager
+MCLC_A06_C00_VAV19.SPVazao,ponto nescessario para air manager
+MCLC_A06_C00_VAV20.SPVazao,ponto nescessario para air manager
+MCLC_A06_C00_VAV21.SPVazao,ponto nescessario para air manager
+MCLC_A06_C00_VAV22.SPVazao,ponto nescessario para air manager
+MCLC_A06_C00_VAV23.SPVazao,ponto nescessario para air manager
+MCLC_A06_C00_VAV24.SPVazao,ponto nescessario para air manager
+MCLC_A06_C00_VAV25.SPVazao,ponto nescessario para air manager
+MCLC_A06_C00_VAV26.SPVazao,ponto nescessario para air manager
+MCLC_A06_C00_VAV27.SPVazao,ponto nescessario para air manager
+MCLC_A06_C00_VAV28.SPVazao,ponto nescessario para air manager
+MCLC_LSpk01_BJck01.contador,
+MCLC_SDAI_A08_Z09.estado,
+MCLC_SDAI_A10_Z11.estado,
+MCLC_SDAI_A12_Z13.estado,
+MCLC_SDAI_C01_Z23.estado,
+MCLC_SDAI_S01_Z17.estado,
+MCLC_SDAI_A02_Z03.estado,
+MCLC_SDAI_A07_Z08.estado,
+MCLC_A12_C00_VAV17.SPVazao,foi integrado o ponto.
+MCLC_A09_C00_VAV11.confiabilidade,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV11.Damper,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV11.SPVazao,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV11.Temp,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV11.Vazao,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV11.VazaoMax,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV11.VazaoMin,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV12.Temp,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV19.confiabilidade,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV20.confiabilidade,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV20.SPVazao,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV20.Temp,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV20.Vazao,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A12_C00_VAV19.SPVazao,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV19.Damper,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV19.SPVazao,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV19.Temp,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV19.Vazao,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV19.VazaoMax,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV19.VazaoMin,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV20.Damper,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV20.VazaoMax,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV20.VazaoMin,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_C01_BPlu03.confiabilidade,
+MCLC_C01_BPlu04.confiabilidade,
+MCLC_C01_REsg01.confiabilidade,
+MCLC_C01_RPlu01.confiabilidade,
+MCLC_C01_RPotInf01.confiabilidade,
+MCLC_C01_RPotInf02.confiabilidade,
+MCLC_C01_RPotSup01.confiabilidade,
+MCLC_C01_RPotSup02.confiabilidade,
+MCLC_CAG_CargaTermica01.confiabilidade,
+MCLC_Disp07.contador,
+MCLC_G_ACom_Ger01_M02.correnteR,
+MCLC_G_ACom_Ger01_M02.correnteT,
+MCLC_G_ACom_Gerador01.confiabilidade,
+MCLC_G_APriv_Gerador01.confiabilidade,
+MCLC_G_APriv_Gerador02.confiabilidade,
+MCLC_G_APriv_RDieInf01.confiabilidade,
+MCLC_G_APriv_RDieSup01.confiabilidade,
+MCLC_G_CAG_Gerador01.confiabilidade,
+MCLC_Pri_Ret_Pressao01.confiabilidade,
+MCLC_Pri_Ret_Pressao01.valor,
+MCLC_Pri_Ret_Pressao01.valorMax,
+MCLC_Pri_Ret_Pressao01.valorMin,
+MCLC_Disp01.contador,ponto dpto
+MCLC_Disp02.contador,ponto dpto
+MCLC_Disp03.contador,ponto dpto
+MCLC_Disp05.contador,ponto dpto
+MCLC_A13_C00_FC02.VAG,foi integrado o ponto.
+MCLC_Disp04.contador,ponto dpto
+MCLC_Disp06.contador,ponto dpto
+MCLC_Disp08.contador,ponto dpto
+MCLC_Disp09.contador,ponto dpto
+MCLC_Disp11.contador,ponto dpto
+MCLC_Disp13.contador,ponto dpto
+MCLC_Ch01_Ali_AG_Pressao.valor,
+MCLC_Ch01_Ret_AG_Pressao.valor,
+MCLC_Ch02_Ali_AG_Pressao.valor,
+MCLC_Ch02_Ret_AG_Pressao.valor,
+MCLC_Chiller01.prAltaComp01,
+MCLC_Chiller01.prAltaComp02,
+MCLC_Chiller01.prAltaComp03,
+MCLC_Chiller01.prAltaComp04,
+MCLC_Chiller01.prAltaComp05,
+MCLC_Chiller01.prBaixaComp01,
+MCLC_Chiller01.prBaixaComp02,
+MCLC_Chiller01.prBaixaComp03,
+MCLC_Chiller01.prBaixaComp04,
+MCLC_Chiller01.prBaixaComp05,
+MCLC_Chiller02.prAltaComp01,
+MCLC_Chiller02.prAltaComp02,
+MCLC_Chiller02.prAltaComp03,
+MCLC_Chiller02.prAltaComp04,
+MCLC_Chiller02.prAltaComp05,
+MCLC_Chiller02.prBaixaComp01,
+MCLC_Chiller02.prBaixaComp02,
+MCLC_Chiller02.prBaixaComp03,
+MCLC_Chiller02.prBaixaComp04,
+MCLC_Chiller02.prBaixaComp05,
+MCLC_A09_C00_FC02.VAG,
+MCLC_ACom_T00_C00_CL01.confiabilidade,
+MCLC_ACom_T00_C00_CL02.confiabilidade,
+MCLC_ACom_T00_C00_CL03.confiabilidade,
+MCLC_ACom_T00_C00_CL04.confiabilidade,
+MCLC_ACom_T00_C00_CL05.confiabilidade,
+MCLC_ACom_T00_C00_CL06.confiabilidade,
+?MCLC_ACom_T00_C01_CL06.confiabilidade,
+MCLC_Escada01_Vent01.frequencia,
+MCLC_Disp01_Control08.estado02,
+MCLC_Disp01_Control16.estado02,
+MCLC_A09_C00_VAV02.confiabilidade,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV03.confiabilidade,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV03.Damper,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV03.SPVazao,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV03.Temp,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV03.Vazao,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV03.VazaoMax,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV03.VazaoMin,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV04.confiabilidade,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV04.SPVazao,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV04.Temp,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV05.Damper,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV05.SPTemp,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV05.Temp,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV05.VazaoMax,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV06.confiabilidade,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV06.Damper,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV06.SPVazao,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV06.Temp,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV06.Vazao,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV06.VazaoMax,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV06.VazaoMin,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV08.confiabilidade,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV08.Damper,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV08.SPTemp,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV08.SPVazao,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV08.Temp,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV08.Vazao,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV08.VazaoMax,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV08.VazaoMin,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV09.confiabilidade,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV09.Damper,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV09.SPTemp,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV09.SPVazao,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV09.Temp,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV09.Vazao,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV09.VazaoMax,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV09.VazaoMin,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV10.confiabilidade,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV10.Damper,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV10.SPTemp,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A10_C00_VAV06.confiabilidade,controladora offline e n∆o integrada
+MCLC_A10_C00_VAV06.Damper,controladora offline e n∆o integrada
+MCLC_A10_C00_VAV06.SPTemp,controladora offline e n∆o integrada
+MCLC_A10_C00_VAV06.Temp,controladora offline e n∆o integrada
+MCLC_A10_C00_VAV06.Vazao,controladora offline e n∆o integrada
+MCLC_A10_C00_VAV06.VazaoMax,controladora offline e n∆o integrada
+MCLC_A10_C00_VAV06.VazaoMin,controladora offline e n∆o integrada
+MCLC_SDAI_A07_Z08.estado,
+MCLC_SDAI_A08_Z09.estado,
+MCLC_SDAI_A10_Z11.estado,
+MCLC_SDAI_C01_Z23.estado,
+MCLC_SDAI_A02_Z03.estado,
+MCLC_A03_C00_VAV02.SPVazao,ponto nescessario para air manager
+MCLC_A03_C00_VAV03.SPVazao,ponto nescessario para air manager
+MCLC_A03_C00_VAV04.SPVazao,ponto nescessario para air manager
+MCLC_A03_C00_VAV05.SPVazao,ponto nescessario para air manager
+MCLC_A03_C00_VAV08.SPVazao,ponto nescessario para air manager
+MCLC_A03_C00_VAV09.SPVazao,ponto nescessario para air manager
+MCLC_A03_C00_VAV10.SPVazao,ponto nescessario para air manager
+MCLC_A03_C00_VAV14.SPVazao,ponto nescessario para air manager
+MCLC_A09_C00_VAV11.VazaoMax,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV11.Damper,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV11.VazaoMin,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV11.Vazao,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV11.SPVazao,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV11.confiabilidade,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV11.Temp,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV12.Temp,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV12.Damper,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV12.VazaoMax,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV12.SPVazao,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV12.VazaoMin,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV13.Damper,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV13.SPVazao,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV13.Temp,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV13.Vazao,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV13.VazaoMax,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV12.confiabilidade,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A12_C00_VAV19.SPVazao,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV12.Vazao,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_E_ACom_QCAG_M01.consumo,pontos n∆o estao sendo mais integrados
+MCLC_E_ACom_QCAG_M01.correnteTrifasica,pontos n∆o estao sendo mais integrados
+MCLC_E_ACom_QCAG_M01.fPotTrifasico,pontos n∆o estao sendo mais integrados
+MCLC_E_ACom_QCAG_M01.frequencia,pontos n∆o estao sendo mais integrados
+MCLC_A09_C00_VAV13.VazaoMin,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV20.confiabilidade,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV20.Damper,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV20.SPVazao,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV20.Temp,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV20.Vazao,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV20.VazaoMax,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV20.VazaoMin,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A12_C00_VAV17.SPVazao,ponto nescessario para air manager
+MCLC_C01_BPlu03.confiabilidade,
+MCLC_C01_BPlu04.confiabilidade,
+MCLC_C01_REsg01.confiabilidade,
+MCLC_C01_RPlu01.confiabilidade,
+MCLC_C01_RPotInf01.confiabilidade,
+MCLC_C01_RPotInf02.confiabilidade,
+MCLC_C01_RPotSup01.confiabilidade,
+MCLC_C01_RPotSup02.confiabilidade,
+MCLC_CAG_CargaTermica01.confiabilidade,
+MCLC_D_ACom_QDNEAdm_M02.confiabilidade,ponto removido da estrutura
+MCLC_D_ACom_QDNEAdm_M02.consumo,ponto removido da estrutura
+MCLC_D_ACom_QDNEAdm_M02.correnteR,ponto removido da estrutura
+MCLC_D_ACom_QDNEAdm_M02.correnteS,ponto removido da estrutura
+MCLC_D_ACom_QDNEAdm_M02.correnteT,ponto removido da estrutura
+MCLC_D_ACom_QDNEAdm_M02.correnteTrifasica,ponto removido da estrutura
+MCLC_D_ACom_QDNEAdm_M02.fPotTrifasico,ponto removido da estrutura
+MCLC_D_ACom_QDNEAdm_M02.frequencia,ponto removido da estrutura
+MCLC_D_ACom_QDNEAdm_M02.potenciaAparenteTrifasica,ponto removido da estrutura
+MCLC_D_ACom_QDNEAdm_M02.potenciaAtivaTrifasica,ponto removido da estrutura
+MCLC_D_ACom_QDNEAdm_M02.potenciaReativaTrifasica,ponto removido da estrutura
+MCLC_D_ACom_QDNEAdm_M02.tensaoRS,ponto removido da estrutura
+MCLC_D_ACom_QDNEAdm_M02.tensaoST,ponto removido da estrutura
+MCLC_D_ACom_QDNEAdm_M02.tensaoTR,ponto removido da estrutura
+MCLC_Disp07.contador,ponto dpto
+MCLC_Disp12.contador,ponto dpto
+MCLC_G_ACom_Ger01_M02.correnteR,
+MCLC_G_ACom_Ger01_M02.correnteT,
+MCLC_G_ACom_Gerador01.confiabilidade,
+MCLC_G_APriv_Gerador01.confiabilidade,
+MCLC_G_APriv_Gerador02.confiabilidade,
+MCLC_G_APriv_RDieInf01.confiabilidade,
+MCLC_G_APriv_RDieSup01.confiabilidade,
+MCLC_G_CAG_Gerador01.confiabilidade,
+MCLC_Pri_Ret_Pressao01.confiabilidade,
+MCLC_Pri_Ret_Pressao01.valor,
+MCLC_Pri_Ret_Pressao01.valorMax,
+MCLC_Pri_Ret_Pressao01.valorMin,
+MCLC_A09_C00_VAV17.confiabilidade,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV17.SPVazao,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV17.Temp,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV17.Vazao,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV17.VazaoMin,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV18.confiabilidade,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV19.confiabilidade,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV19.Damper,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV19.SPVazao,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV19.Temp,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV19.Vazao,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV19.VazaoMax,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV19.VazaoMin,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV15.confiabilidade,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV15.SPVazao,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV15.Temp,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV16.confiabilidade,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV16.Damper,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV16.SPVazao,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV16.Temp,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV16.Vazao,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV16.VazaoMax,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV16.VazaoMin,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV17.Damper,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV17.VazaoMax,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV13.confiabilidade,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV14.confiabilidade,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV14.Damper,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV14.SPVazao,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV14.Temp,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV14.Vazao,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV14.VazaoMax,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV14.VazaoMin,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV15.Damper,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV15.Vazao,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV15.VazaoMax,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A09_C00_VAV15.VazaoMin,valores zerados no supervisorio e referencia perdida no coletor
+MCLC_A03_C00_VAV17.Damper,
+MCLC_A03_C00_VAV17.SPTemp,
+MCLC_A03_C00_VAV17.VazaoMax,
+MCLC_A03_C00_VAV17.Temp,
+MCLC_A03_C00_VAV17.Vazao,
+MCLC_A03_C00_VAV17.VazaoMin,
+MCLC_A03_C00_VAV10.Damper,
+MCLC_A03_C00_VAV10.SPTemp,
+MCLC_A03_C00_VAV10.VazaoMax,
+MCLC_A03_C00_VAV10.VazaoMin,
+MCLC_A03_C00_VAV10.Temp,
+MCLC_A03_C00_VAV10.Vazao,
+MCLC_Disp04.contador,
+MCLC_Disp06.contador,
+MCLC_Disp08.contador,
+MCLC_Disp09.contador,
+MCLC_Disp11.contador,
+MCLC_Disp13.contador,
+MCLC_Ch01_Ali_AG_Pressao.valor,
+MCLC_Ch01_Ret_AG_Pressao.valor,
+MCLC_Ch02_Ali_AG_Pressao.valor,
+MCLC_Ch02_Ret_AG_Pressao.valor,
+MCLC_Chiller01.prAltaComp01,
+MCLC_Chiller01.prAltaComp02,
+MCLC_Chiller01.prAltaComp03,
+MCLC_Chiller01.prAltaComp04,
+MCLC_Chiller01.prAltaComp05,
+MCLC_Chiller01.prBaixaComp01,
+MCLC_Chiller01.prBaixaComp02,
+MCLC_Chiller01.prBaixaComp03,
+MCLC_Chiller01.prBaixaComp04,
+MCLC_Chiller01.prBaixaComp05,
+MCLC_Chiller02.prAltaComp01,
+MCLC_Chiller02.prAltaComp02,
+MCLC_Chiller02.prAltaComp03,
+MCLC_Chiller02.prAltaComp04,
+MCLC_Chiller02.prAltaComp05,
+MCLC_Chiller02.prBaixaComp01,
+MCLC_Chiller02.prBaixaComp02,
+MCLC_Chiller02.prBaixaComp03,
+MCLC_Chiller02.prBaixaComp04,
+MCLC_Chiller02.prBaixaComp05,
+MCLC_A03_C00_VAV19.SPTemp,
+MCLC_A09_C00_FC02.VAG,
+MCLC_ACom_T00_C00_CL01.confiabilidade,
+MCLC_ACom_T00_C00_CL02.confiabilidade,
+MCLC_ACom_T00_C00_CL03.confiabilidade,
+MCLC_ACom_T00_C00_CL04.confiabilidade,
+MCLC_ACom_T00_C00_CL05.confiabilidade,
+MCLC_ACom_T00_C00_CL06.confiabilidade,
+?MCLC_ACom_T00_C01_CL06.confiabilidade,
+MCLC_Escada01_Vent01.frequencia,
+MCLC_A13_C00_FC02.VAG,
+MCLC_Disp01.contador,
+MCLC_Disp02.contador,
+MCLC_Disp03.contador,
+MCLC_Disp05.contador,
+MCLC_Disp01_Control08.estado02,
+MCLC_A07_C00_VAV21.VazaoMin,
+MCLC_A06_C00_VAV06.VazaoMax,
+MCLC_Disp01_Control16.estado02,
+MCLC_A06_C00_VAV01.SPVazao,
+MCLC_Disp02_Control34.estado01,
+MCLC_ACom_T00_C00_CL04.confiabilidade,
+MCLC_ACom_T00_C00_CL05.confiabilidade,
+MCLC_ACom_T00_C00_CL06.confiabilidade,
+?MCLC_ACom_T00_C01_CL06.confiabilidade,
+MCLC_Escada01_Vent01.frequencia,
+MCLC_Disp01.contador,
+MCLC_Disp02.contador,
+MCLC_Disp03.contador,
+MCLC_Disp05.contador,
+MCLC_A13_C00_FC02.VAG,
+MCLC_Disp04.contador,
+MCLC_Disp06.contador,
+MCLC_Disp08.contador,
+MCLC_Disp09.contador,
+MCLC_Disp11.contador,
+MCLC_Disp13.contador,
+MCLC_Ch01_Ali_AG_Pressao.valor,
+MCLC_Ch01_Ret_AG_Pressao.valor,
+MCLC_Ch02_Ali_AG_Pressao.valor,
+MCLC_Ch02_Ret_AG_Pressao.valor,
+MCLC_Chiller01.prAltaComp01,
+MCLC_Chiller01.prAltaComp02,
+MCLC_Chiller01.prAltaComp03,
+MCLC_Chiller01.prAltaComp04,
+MCLC_Chiller01.prAltaComp05,
+MCLC_Chiller01.prBaixaComp01,
+MCLC_Chiller01.prBaixaComp02,
+MCLC_Chiller01.prBaixaComp03,
+MCLC_Chiller01.prBaixaComp04,
+MCLC_Chiller01.prBaixaComp05,
+MCLC_Chiller02.prAltaComp01,
+MCLC_Chiller02.prAltaComp02,
+MCLC_Chiller02.prAltaComp03,
+MCLC_Chiller02.prAltaComp04,
+MCLC_Chiller02.prAltaComp05,
+MCLC_Chiller02.prBaixaComp01,
+MCLC_Chiller02.prBaixaComp02,
+MCLC_Chiller02.prBaixaComp03,
+MCLC_Chiller02.prBaixaComp04,
+MCLC_Chiller02.prBaixaComp05,
+MCLC_Disp01_Control08.estado02,
+MCLC_A07_C00_VAV21.VazaoMin,
+MCLC_A07_C00_VAV18.confiabilidade,
+MCLC_A06_C00_VAV06.VazaoMax,
+MCLC_Disp01_Control16.estado02,
+MCLC_A06_C00_VAV01.SPVazao,
+MCLC_E_ACom_QCAG_M01.confiabilidade,
+MCLC_E_ACom_QCAG_M01.consumo,
+MCLC_E_ACom_QCAG_M01.correnteTrifasica,
+MCLC_E_ACom_QCAG_M01.fPotTrifasico,
+MCLC_E_ACom_QCAG_M01.frequencia,
+MCLC_E_ACom_QCAG_M01.potenciaAparenteTrifasica,
+MCLC_E_ACom_QCAG_M01.potenciaAtivaTrifasica,
+MCLC_E_ACom_QCAG_M01.potenciaReativaTrifasica,
+MCLC_Escada01_Vent01.frequencia,
+MCLC_G_ACom_Ger01_M02.correnteR,
+MCLC_G_ACom_Ger01_M02.correnteT,
+MCLC_G_ACom_Gerador01.confiabilidade,
+MCLC_G_ACom_RDieSup01.nvBaixo,
+MCLC_G_APriv_Gerador01.confiabilidade,
+MCLC_G_APriv_Gerador02.confiabilidade,
+MCLC_G_APriv_RDieInf01.confiabilidade,
+MCLC_G_APriv_RDieInf01.nvBaixo,
+MCLC_G_APriv_RDieSup01.confiabilidade,
+MCLC_G_APriv_RDieSup01.nvBaixo,
+MCLC_G_CAG_Gerador01.confiabilidade,
+MCLC_LSpk01_BJck01.contador,
+MCLC_Pri_Ret_Pressao01.confiabilidade,
+MCLC_Pri_Ret_Pressao01.valor,
+MCLC_Pri_Ret_Pressao01.valorMax,
+MCLC_Pri_Ret_Pressao01.valorMin,
+MCLC_Pri_RExp01.confiabilidade,
+MCLC_Pri_RExp01.nvAlto,
+MCLC_SDAI_A01_Z02.estado,
+MCLC_SDAI_A02_Z03.estado,
+MCLC_SDAI_A03_Z04.estado,
+MCLC_SDAI_A07_Z08.estado,
+MCLC_SDAI_A08_Z09.estado,
+MCLC_SDAI_A10_Z11.estado,
+MCLC_SDAI_A12_Z13.estado,
+MCLC_SDAI_A13_Z14.estado,
+MCLC_SDAI_A14_Z15.estado,
+MCLC_SDAI_C01_Z23.estado,
+MCLC_SDAI_Painel01.alarmeIncendio,
+MCLC_SDAI_Painel01.estado,
+MCLC_SDAI_S01_Z17.estado,
+MCLC_SDAI_S02_Z18.estado,
+MCLC_SDAI_S03_Z19.estado,
+MCLC_SDAI_S04_Z20.estado,
+MCLC_SDAI_T00_Z01.estado,
