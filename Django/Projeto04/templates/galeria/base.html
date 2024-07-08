@@ -2,8 +2,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<!--  código omitido -->
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,12 +13,10 @@
     <link rel="stylesheet" href="{% static '/styles/style.css' %}">
 </head>
 
-<!--  código omitido -->
-
 <body>
-    {% include 'galeria/partials/_menu.html' %}
+    {% include 'partials/_menu.html' %}
     {% block content %}{% endblock %}
-    {% include 'galeria/partials/_footer.html' %}
+    {% include 'partials/_footer.html' %}
 </body>
 
 </html>
