@@ -16,16 +16,50 @@ depois colocar em setting as configurações do banco
 
 sudo apt-get install unixodbc-dev # tive que instalar essa biblioteca tambem.
 
-com o Django devemos obedecer a estrutura de ORM sempre, ou seja temos que ter nosso aplicativo dentro de INSTALLED_APPS = ['meu_app'], temos que criar uma class dentro de views, referenciando o banco essa classe é a orientação a objeto que faz o intermedio entre o banco e o codigo Django. com isso referenciamos um template para essa view.
+com o Django devemos obedecer a estrutura de ORM sempre, ou seja temos que ter nosso aplicativo dentro de INSTALLED_APPS = ['meu_app'], temos que criar uma class dentro de models, referenciando o banco essa classe é a orientação a objeto que faz o intermedio entre o banco e o codigo Django. com isso referenciamos um template para esse model.
 
 a ideia nao é usar o ORM do Django, vamos manipular muito o banco de dados para depois exibi-lo eu ainda nao sei se pego o banco externo e coloco no banco interno, ou se trato todo os dados de tempos em tempos e crio tabelas internas para analises pontuais.
 
-mas basicamente é possivel acessar o banco de dados com uma conexao normal usando o pyodbc vou usar essa conexao por hora como um metodo dentro de views.py que vai ser chamado pelo javascript em uma ação na pagina html.
+mas basicamente é possivel acessar o banco de dados com uma conexao normal usando o pyodbc vou usar essa conexao por hora como um metodo dentro de models.py que vai ser chamado pelo javascript em uma ação na pagina html.
 
+-----------------------------------------------------------------------------------------------
+aqui sera utilizado o banco de dados nativo do Django o SQLlite3. 
+temos que garantir que o nome do aplicativo seja o mesmo em todas as camadas, principalmente em settings.py  onde em :
+```Python
+INSTALLED_APPS = [
+    ...
+    'Galeria',
+    ...
+]
+```
+isso ira criar uma pasta migrations e um arquivo 0001_initial.py que é um codigo python criando uma tabela no banco de dados. lembrando que usamos ORM em models para criar uma classe que referencia os atributos da classe com as colunas do banco de dados.
+```Python
+python manage.py migrate #por fim para realmente criar o banco de dados
+```
+vamos em views pegar a classe de models que corresponde ao banco de dados criado.
+feito isso tambem vamos fazer com que o index.html possa varrer os dados atraveis da views.
 
+logo a view é respondavel por acessar models que usa o ORM com o DB e renderiza a pagina index com os dados desse DB.
 
+ja no index é colocado como vai ser feito a varredura desses dados. atraves de laços pelo proprio Django, 
 
+uma outra integração que ocorre é que no arquivo index, podemos deixar uma referencia dinamica para cada click em uma imagem que ate entao abria uma unica pagina, e agora ela vai abrir paginas respectiva a foto clicada.
+para isso em views na parte onde falamos que ao clicar na imagem vamos visitar uma outra pagina. ai temos uma referencia para o arquivo url.py, onde foi criado o path de acesso para a pagina imagem.
 
+temos entao o arquivo imagem.html e dentro de url.py um path referenciando essa pagina, em index informamos o id da imagem que deve ser acessado casso clicado.
+
+tipo teremos esse id pq essa informaçao esta no db puxamos essa informação ja renderizada na view, e dentro de index temos sim acesso ao id dessa linha do banco, percebe um ciclo ? onde a informação vem pra index e quando vamos sair de index precisamos passar por url.py para chegar em imagem.html usando as informações do banco.
+
+ entao é acessado em views.py no medoto responsavel por renderizar a pagina imagem colocamos um atributo a mais no metodo que é o id
+
+ ```python
+ def imagem(request, foto_id):
+    return render(request, 'galeria/imagem.html')
+ ```
+
+-------------------------------------------------------------------------------------------------
+ 
+toda vez que criamos uma nova coluna na tabela temos que colocar os parametros dessa coluna em models ai vai ser criado um novo arquivo na pasta migrate e apos isso damos migrate no terminal, para que a nova coluna suba no banco.
 
 
 

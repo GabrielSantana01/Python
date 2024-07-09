@@ -17,3 +17,15 @@ path('admin/', admin.site.urls), deve esta antes do index. para acessar a pagina
 
 todo o esquema de permissões 
 
+-----------------------------------------------------------------------------------------------------
+uma coisa é usarmos o banco de dados interno no Django pelo sqlite, outra é esse banco esta dentro da estrutura admin, essa parte de admin é feita para o gerenciamento de usuario e de dados, tipo alteração na estrutura das tabelas etc.
+para isso dentro de models fazemos o seguinte comando
+
+```Python
+from Galeria.models import Fotografia
+
+admin.site.register(Fotografia)
+```
+o resto é ja uma manipulação de como esses dados vao ser exibidos. tipo
+
+----------------------------------------------------------------------------------------------------
