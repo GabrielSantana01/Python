@@ -44,3 +44,10 @@ no metodo construtor da classe: __init__, ou seja temos que criar uma variavel g
 if (__name__ == '__main__'): # essa verificação valida se o script que estamos rodando é o principal do programa caso seja vai existir um metodo main() dentro da class e o interpretador python  ai rodar primeiramente o metodo main() quando a classe for chamada.
 
 ai dentro de main() vamos chamar todos os passos que queremos executar em nosso programa.
+-----------------------------------------------------------------------------------------------------------
+existe uma função dir que mostra todos os metodos de sistema de uma classe
+e existe tambem a função vars que mostra todas as funções e atributos de uma classe
+
+o metodo de sistema __init__ server para ser o construtor da classe
+o metodo __str__ server para exibir os atributos da classe como string
+OBS: quando criamos uma classe somente com __init__ e com qualquer outro metodo comum, todos os metodos vao ser chamado dessa classe quando chamamos a classe na instanciação... por isso que criamos a estrutura main.
