@@ -51,3 +51,41 @@ e existe tambem a função vars que mostra todas as funções e atributos de uma
 o metodo de sistema __init__ server para ser o construtor da classe
 o metodo __str__ server para exibir os atributos da classe como string
 OBS: quando criamos uma classe somente com __init__ e com qualquer outro metodo comum, todos os metodos vao ser chamado dessa classe quando chamamos a classe na instanciação... por isso que criamos a estrutura main.
+----------------------------------------------------------------
+o paradigma de Programação Orientada a Objetos tem alguns pilares:
+1 - Abstração - permite criar classes que representam entidades do mundo real.
+2 - Encapsulamento - esconde os detalhes interno do objeto expondo somente o necessario pelos metodos publicos. e criando atributos privados.
+3 - Herença - permite que uma classe filha herde atributos e metodos de uma classe pai. 
+4 - Polimorfismo - métodos com o mesmo nome podem ter diferentes implementações em classes diferentes.
+``` Python
+class Animal:
+    def fazer_som(self):
+        pass
+
+class Cachorro(Animal):
+    def fazer_som(self):
+        print("Latido")
+
+class Gato(Animal):
+    def fazer_som(self):
+        print("Miau")
+
+def emitir_som(animal):
+    animal.fazer_som()
+
+cachorro = Cachorro()
+gato = Gato()
+
+emitir_som(cachorro)
+emitir_som(gato)
+```
+5- Composição - quando o construtor de uma classe é feito da instanciação de outra classe.
+class Motor:
+class Carro:
+    def __init__(self):
+        self.motor = Motor()
+
+no exemplo acima a classe Carro tem seu construtor a intanciação da classe Motor.
+logo o principio da composição é quando os objetos são compostos de outros objetos.
+
+6 - Associação, Agregação e Composição

@@ -51,7 +51,25 @@ for x in range(1, 11):
 
 print("teste: {:.2f}; {:-f}".format(3.14, -3.14))
 
-help(round)
+round(variavel, 1) # o resultado tem 1 casa decimal
+
+#List Comprehensions
+valor_int = sum(tabela._coluna1 for interacao in self.tabela) 
+# no codigo acima estamos somando  os valores das linha existente em uma coluna de uma tabela.
+nomes = ["Ana", "Maria", "Pedro", "João", "Marta"]
+nomes_com_m = [nome for nome in nomes if nome.startswith("M")]
+print(nomes_com_m)
+#-----------------------------------------------------------------------------
+dicionario = {'a': 1, 'b': 2, 'c': 3}
+chaves = [chave for chave in dicionario]
+print(chaves)
+#------------------------------------------------------------------------------
+lista_de_listas = [[1, 2, 3], [4, 5], [6, 7, 8, 9]]
+achatar = [item for sublista in lista_de_listas for item in sublista]
+print(achatar)
+#-------------------------------------------------------------------------------
+matriz = [[j for j in range(3)] for i in range(3)]
+print(matriz)
 
 #----------------------------------------------------------------------------
 '''
@@ -98,7 +116,6 @@ que pertence à classe em vez de a uma instância específica da classe. Ele rec
 classe como seu primeiro argumento, comumente chamado de cls, em vez da instância (self).
 '''
 
-'''
 class Produto:
     taxa_desconto = 0.10  # Atributo de classe
     
@@ -128,4 +145,4 @@ print(f"Nova taxa de desconto: {Produto.taxa_desconto}")
 print(f"Novo preço com desconto do produto1: {produto1.preco_com_desconto()}")
 print(f"Novo preço com desconto do produto2: {produto2.preco_com_desconto()}")
 
-'''
+#---------------------------------------------------------------------------------------------
