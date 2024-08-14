@@ -1,0 +1,82 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+
+
+	<link rel="icon" type="image/png" href="static/images/icons/favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}">
+	<link rel="stylesheet" type="text/css" href="static/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="static/fonts/iconic/css/material-design-iconic-font.min.css">
+	<link rel="stylesheet" type="text/css" href="static/vendor/animate/animate.css">	
+	<link rel="stylesheet" type="text/css" href="static/vendor/css-hamburgers/hamburgers.min.css">
+	<link rel="stylesheet" type="text/css" href="static/vendor/animsition/css/animsition.min.css">
+	<link rel="stylesheet" type="text/css" href="static/vendor/select2/select2.min.css">	
+	<link rel="stylesheet" type="text/css" href="static/vendor/daterangepicker/daterangepicker.css">
+	<link rel="stylesheet" type="text/css" href="static/css/util.css">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+	<style>
+	input:-webkit-autofill {
+		background-color: transparent !important; /* Remove o fundo branco */
+		color: #fff; /* Define a cor do texto */
+	  }
+	</style>
+<!--===============================================================================================-->
+</head>
+<body>
+	<div class="limiter">
+		<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
+			<div class="wrap-login100">
+				<form action="{% url 'login' %}" method="POST">
+                    {% csrf_token %}
+					<div class="wrap-input100 validate-input" data-validate="Coloque um usuário válido">
+						<input class="input100 " type="text" name="{{ form.username.name }}" id="{{ form.username.id_for_label }}" placeholder="{{ form.username.field.widget.attrs.placeholder }}">
+						<span class="focus-input100" data-placeholder="&#xf207;"></span>
+					</div>
+				
+					<div class="wrap-input100 validate-input" data-validate="Coloque uma senha válida">
+						<input class="input100" type="password" name="{{ form.password.name }}" id="{{ form.password.id_for_label }}" placeholder="{{ form.password.field.widget.attrs.placeholder }}">
+						<span class="focus-input100" data-placeholder="&#xf191;"></span>
+					</div>
+					    <!-- Display messages -->
+					{% if messages %}
+						<div class="messages">
+							{% for message in messages %}
+								<div class="alert alert-{{ message.tags }}">
+									{{ message }}
+								</div>
+							{% endfor %}
+						</div>
+					{% endif %}
+				
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn">
+							Acessar
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+
+	<div id="dropDownSelect1"></div>
+	
+<!--===============================================================================================-->
+	<script src="{% static 'vendor/jquery/jquery-3.2.1.min.js' %}"></script>
+	<script src="static/vendor/animsition/js/animsition.min.js"></script>
+	<script src="static/vendor/bootstrap/js/popper.js"></script>
+	<script src="static/vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="static/vendor/select2/select2.min.js"></script>
+	<script src="static/vendor/daterangepicker/moment.min.js"></script>
+	<script src="static/vendor/daterangepicker/daterangepicker.js"></script>
+	<script src="static/vendor/countdowntime/countdowntime.js"></script>
+	<script src="{% static 'js/main.js' %}"></script>
+
+</body>
+</html>

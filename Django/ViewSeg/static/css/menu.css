@@ -1,0 +1,50 @@
+
+/* Estilos para o painel lateral */
+.sidebar {
+    height: 100vh;
+    width: 250px;
+    background-color: #343a40;
+    position: fixed;
+    top: 0;
+    left: -250px; /* Inicialmente escondido */
+    padding: 1rem;
+    transition: left 0.3s;
+}
+.sidebar.show {
+    left: 0; /* Exibido quando a classe show é adicionada */
+}
+.sidebar .nav-link {
+    color: #fff;
+}
+/* Estilos para o botão de alternar o painel */
+.sidebar-toggle {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1050; /* Para garantir que o botão esteja acima do painel */
+}
+/* Estilos para a barra superior */
+.navbar-custom {
+    margin-left: 250px; /* Ajusta a barra superior para o lado direito do painel lateral */
+    padding: 0.5rem 1rem;
+    background-color: #343a40;
+    color: #fff;
+}
+.navbar-custom .user-menu {
+    display: flex;
+    align-items: center;
+}
+.navbar-custom .user-menu img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.navbar-custom .dropdown-menu {
+    min-width: 200px;
+}
+.content {
+    margin-left: 250px; /* Ajusta o conteúdo para o lado direito do painel lateral */
+    padding: 2rem;
+}
+

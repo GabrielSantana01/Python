@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Lateral com Ícones e Barra Superior</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome para ícones -->
+    <style>
+        /* Estilos para o painel lateral */
+        .sidebar {
+            height: 100vh;
+            width: 250px; /* Largura inicial do painel lateral */
+            background-color: #343a40;
+            position: fixed;
+            top: 0; /* Ajusta para começar abaixo da barra superior */
+            left: 0; /* Começa visível */
+            padding: 1rem;
+            transition: all 0.3s ease;
+            z-index: 1050; /* Garante que o painel esteja acima de outros elementos */
+        }
+
+        .sidebar.collapsed {
+            width: 60px; /* Largura reduzida do painel lateral */
+        }
+
+        /* Estilos para os botões do painel lateral */
+        .sidebar .nav-link {
+            color: #fff;
+            display: flex;
+            align-items: center;
+            white-space: nowrap;
+            padding: 10px;
+            font-size: 20px; /* Tamanho do ícone */
+            transition: padding 0.3s, font-size 0.3s; /* Animação suave */
+            border: none; /* Remove borda padrão */
+            background: none; /* Remove fundo */
+            margin: 20px 0; /* Espaçamento entre os botões */
+            text-align: left; /* Alinha o texto à esquerda */
+        }
+
+        .sidebar.collapsed .nav-link {
+            padding: 4px; /* Espaçamento menor quando colapsado */
+        }
+        
+        .sidebar .nav-link i {
+            font-size: 24px; /* Tamanho dos ícones */
+            width: 30px; /* Largura fixa para os ícones */
+            margin-right: 30px; /* Espaço entre ícone e texto */
+        }
+
+        .sidebar .nav-item {
+            border-top: 1px solid rgba(255, 255, 255, 0.3); /* Linha divisória */
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Linha divisória */
+
+        }
+
+        /* Adiciona linha separadora entre o botão de exibir e o primeiro item */
+        .sidebar .nav-item:first-child {
+            margin-top: 40px; /* Remove margem superior para o primeiro ícone do menu */
+        }
+
+        .sidebar .nav-link span {
+            display: inline-block;
+            transition: opacity 0.3s;
+            margin-left: 10px; /* Espaço entre ícone e texto */
+            flex: 1; /* Permite que o texto ocupe o espaço disponível */
+        }
+
+        .sidebar.collapsed .nav-link span {
+            opacity: 0; /* Oculta o texto quando colapsado */
+        }
+
+        /* Estilos para o botão de alternar o painel lateral */
+        .sidebar-toggle {
+            position: absolute; /* Alinha o botão dentro do painel lateral */
+            top: 10px; /* Ajusta a posição do botão dentro do painel */
+            right: 10px; /* Alinha o botão ao lado direito superior do painel */
+            z-index: 1060; /* Garante que o botão esteja acima do painel */
+            font-size: 24px; /* Tamanho do ícone do botão */
+            background: none; /* Remove fundo */
+            border: none; /* Remove borda */
+            color: #fff; /* Cor do ícone */
+            cursor: pointer; /* Aponta que é clicável */
+        }
+
+        /* Estilos para a barra superior */
+        .navbar-custom {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 0.5rem 1rem;
+            background-color: #343a40;
+            color: #fff;
+            z-index: 1040; /* Garante que a barra superior esteja acima do conteúdo */
+        }
+
+        .navbar-custom .user-menu {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar-custom .user-menu img {
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        .navbar-custom .dropdown-menu {
+            min-width: 200px;
+        }
+
+        /* Estilos para o conteúdo principal */
+        .content {
+            margin-left: 250px; /* Ajusta o conteúdo para o lado direito do painel lateral */
+            margin-top: 60px; /* Ajusta o conteúdo para baixo da barra superior */
+            padding: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Painel lateral -->
+    <div class="sidebar" id="sidebar">
+        <!-- Botão para alternar o painel lateral dentro do painel -->
+        <button class="btn btn-primary sidebar-toggle" id="sidebarToggle">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+
+        <!-- Menu do painel lateral -->
+        <ul class="nav flex-column mt-4">
+            <li class="nav-item">
+                <button class="nav-link" href="#">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" href="#">
+                    <i class="fas fa-user"></i>
+                    <span>Profile</span>
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" href="#">
+                    <i class="fas fa-envelope"></i>
+                    <span>Messages</span>
+                </button>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Barra superior -->
+    <nav class="navbar navbar-custom">
+        <div class="container-fluid">
+            <!-- Nome da aplicação -->
+            <span class="navbar-brand">Minha Aplicação</span>
+
+            <!-- Menu do usuário -->
+            <div class="user-menu dropdown">
+                <img src="https://via.placeholder.com/40" alt="User Avatar">
+                <a class="dropdown-toggle text-light" href="#" id="userMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Usuário
+                </a>
+                <div class="dropdown-menu" aria-labelledby="userMenu">
+                    <a class="dropdown-item" href="#">Configurar Conta</a>
+                    <a class="dropdown-item" href="#">Sair</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Conteúdo principal -->
+    <div class="content">
+        <h1>Área de Conteúdo</h1>
+        <p>Aqui vai o conteúdo da página.</p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        document.getElementById('sidebarToggle').addEventListener('click', function () {
+            var sidebar = document.getElementById('sidebar');
+            sidebar.classList.toggle('collapsed');
+        });
+    </script>
+</body>
+</html>
